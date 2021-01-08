@@ -105,6 +105,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:TEST_FRAMEWORK
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -113,8 +114,6 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
--r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
--r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637446896160000000
-    m_Hash: 3159720281
+      ticks: 637452163400000000
+    m_Hash: 2938598194
   m_LockFileStatus:
     m_FilePath: /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637446896190000000
-    m_Hash: 2336926683
+      ticks: 637452163410000000
+    m_Hash: 2764234569
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,115 @@ m_LocalPackages:
 m_ProjectPath: /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Packages
 m_EditorVersion: 2021.1.0b1 (9f7c487dd2da)
 m_ResolvedPackages:
+- packageId: com.unity.cinemachine@2.7.1
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.1
+  source: 1
+  resolvedPath: /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.cinemachine@2.7.1
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nNew for 2.7.1: Are
+    you looking for the Cinemachine menu?  It has moved to the GameObject menu.\n\nIMPORTANT
+    NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine,
+    delete the Cinemachine asset from your project BEFORE installing this version
+    from the Package Manager."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.7.1
+    compatible:
+    - 2.7.1
+    verified: 2.7.1
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637411496490000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/upm-package-cinemachine.git
+    revision: 863a03db6aa5c7f91b66e644065be1cac7f73f10
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.3.9
   testable: 0
   isDirectDependency: 1
@@ -322,6 +431,169 @@ m_ResolvedPackages:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
     revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.postprocessing@3.0.2
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.2
+  source: 2
+  resolvedPath: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.postprocessing
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 3.0.2
+    compatible:
+    - 3.0.2
+    verified: 3.0.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.probuilder@5.0.0-pre.7
+  testable: 0
+  isDirectDependency: 1
+  version: 5.0.0-pre.7
+  source: 1
+  resolvedPath: /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.probuilder@5.0.0-pre.7
+  assetPath: Packages/com.unity.probuilder
+  name: com.unity.probuilder
+  displayName: ProBuilder
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+    for in-scene level design, prototyping, collision meshes, all with on-the-fly
+    play-testing.
+
+
+    Advanced features include UV editing, vertex colors, parametric
+    shapes, and texture blending. With ProBuilder''s model export feature it''s easy
+    to tweak your levels in any external 3D modelling suite.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.6
+    - 3.0.8
+    - 3.0.9
+    - 3.10.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.0.5
+    - 4.1.0
+    - 4.1.2
+    - 4.2.1
+    - 4.2.2-preview.1
+    - 4.2.2-preview.2
+    - 4.2.3
+    - 4.2.4-preview.0
+    - 4.3.0-preview.0
+    - 4.3.0-preview.1
+    - 4.3.0-preview.2
+    - 4.3.0-preview.4
+    - 4.3.0-preview.6
+    - 4.3.0-preview.7
+    - 4.3.0-preview.8
+    - 4.3.0-preview.9
+    - 4.3.1
+    - 4.4.0-preview.1
+    - 4.4.0
+    - 5.0.0-pre.7
+    compatible:
+    - 5.0.0-pre.7
+    verified: 5.0.0-pre.7
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  keywords:
+  - 3d
+  - model
+  - mesh
+  - modeling
+  - geometry
+  - shape
+  - cube
+  - blender
+  - max
+  - maya
+  - fbx
+  - obj
+  - level
+  - design
+  - block
+  - greybox
+  - graybox
+  - whitebox
+  - prototype
+  - probuilder
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637412513260000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.probuilder.git
+    revision: 674a065f24ee5ca883d31421884070787f97c3dc
     path: 
   unityLifecycle:
     version: 
@@ -727,6 +999,79 @@ m_ResolvedPackages:
   - ugui
   - Unity UI
   - Canvas
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.visualeffectgraph@11.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 11.0.0
+  source: 2
+  resolvedPath: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.visualeffectgraph
+  assetPath: Packages/com.unity.visualeffectgraph
+  name: com.unity.visualeffectgraph
+  displayName: Visual Effect Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Visual Effect Graph is a node based visual effect editor. It allows
+    you to author next generation visual effects that Unity simulates directly on
+    the GPU. The Visual Effect Graph is production-ready for the High Definition
+    Render Pipeline and runs on all platforms supported by it. Full support for the
+    Universal Render Pipeline and compatible mobile devices is still in development.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.shadergraph
+    version: 11.0.0
+  resolvedDependencies:
+  - name: com.unity.shadergraph
+    version: 11.0.0
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.3.1
+  keywords:
+  - vfx
+  - visualeffect
+  - graph
+  - effect
+  - particles
   registry:
     id: 
     name: 
@@ -2589,6 +2934,74 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+- packageId: com.unity.shadergraph@11.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 11.0.0
+  source: 2
+  resolvedPath: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.shadergraph
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.searcher
+    version: 4.3.1
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.3.1
+  keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.5
   testable: 0
   isDirectDependency: 0
@@ -2610,10 +3023,16 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
     - 1.0.5
+    - 1.0.6
     compatible:
     - 1.0.5
-    verified: 1.0.5
+    - 1.0.6
+    verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -2632,13 +3051,200 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637413148740000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
     revision: 1b3e542964a65210e966f5bf8751f62b1dcd8d69
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.settings-manager@1.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.3
+  source: 1
+  resolvedPath: /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.settings-manager@1.0.3
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    compatible:
+    - 1.0.3
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637300096300000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.render-pipelines.core@11.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 11.0.0
+  source: 2
+  resolvedPath: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Core RP Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.searcher@4.3.1
+  testable: 0
+  isDirectDependency: 0
+  version: 4.3.1
+  source: 1
+  resolvedPath: /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.searcher@4.3.1
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.6.0-preview
+    - 4.7.0-preview
+    compatible:
+    - 4.3.1
+    - 4.6.0-preview
+    - 4.7.0-preview
+    verified: 4.3.1
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637272602300000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 56c3321cb776740e60e242e6c72cb5b4e8245256
     path: 
   unityLifecycle:
     version: 

@@ -105,6 +105,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll"
@@ -112,8 +113,6 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
--r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
--r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
@@ -310,6 +309,8 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll"
+-r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll"
 -r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
 -r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.ref.dll"
