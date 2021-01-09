@@ -62,3 +62,12 @@ Update Mode: mergeDefaultDependencies
 
 The following packages were added:
   com.unity.render-pipelines.universal@7.3.1
+
+=== Sat Jan  9 17:54:08 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.ext.nunit@1.0.0
+  com.unity.recorder@2.0.3-preview.1
