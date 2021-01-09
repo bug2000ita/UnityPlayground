@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimationTwoDimentionsController : MonoBehaviour
@@ -15,25 +13,59 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     float maximumWalkVelocity = 0.5f;
     float maximumRunVelocity = 2.0f;
 
+    int velocityXHash;
+    int velocityZHash;
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        velocityXHash = Animator.StringToHash("Velocity X");
+        velocityZHash = Animator.StringToHash("Velocity Z");
     }
 
-    private float drive(bool directionButtonPressed, float outputVelocity, float currentMaxVelocity, bool signPositive)
+    private bool IsAxisDirectionPositive(AxisDirection axisDirection)
     {
-        if (directionButtonPressed && Math.Abs(outputVelocity) < currentMaxVelocity)
-        {
-            outputVelocity = signPositive ? outputVelocity + Time.deltaTime * acceleration : outputVelocity - Time.deltaTime * acceleration;
-        }
-        else if (directionButtonPressed && Math.Abs(outputVelocity) > currentMaxVelocity)
-        {
-            outputVelocity = signPositive ? outputVelocity - Time.deltaTime * deceleration : outputVelocity + Time.deltaTime * deceleration;
+        //Check if we have positive 2D direction.
+        //In this set:
+        //- pressing forward and right key we have positve values
+        //- pressing left key we  have negative values
 
-            if (Math.Abs(outputVelocity) > currentMaxVelocity - 0.1f && Math.Abs(outputVelocity) < currentMaxVelocity + 0.1f)
+        return axisDirection == AxisDirection.Positive;
+    }
+
+    private float EstimateVelocityWhenKeyPressed(float outputVelocity, float currentMaxVelocity, AxisDirection axisDirection)
+    {
+        // identify type of logic to be used for incrementing / decrementing values
+        bool isAxisDirectionPositive = IsAxisDirectionPositive(axisDirection);
+
+        // Increase value when key is pressed till the limit
+        if (Math.Abs(outputVelocity) < currentMaxVelocity)
+        {
+            outputVelocity =
+                isAxisDirectionPositive ?
+                outputVelocity + Time.deltaTime * acceleration :
+                outputVelocity - Time.deltaTime * acceleration;
+        }
+
+        // Decrease value when key is still pressed and max velocity changed
+        // releasing the key associated for running
+        else if (Math.Abs(outputVelocity) > currentMaxVelocity)
+        {
+            outputVelocity =
+                isAxisDirectionPositive?
+                outputVelocity - Time.deltaTime * deceleration :
+                outputVelocity + Time.deltaTime * deceleration;
+
+            // when in range of max velocity after transition with deceleration
+            // it sets the value equal to max speed allowed
+            if (
+                (Math.Abs(outputVelocity) > currentMaxVelocity - 0.05f)
+                &&
+                (Math.Abs(outputVelocity) < currentMaxVelocity + 0.05f))  
             {
-                int multiplier = signPositive ? 1 : -1;
+                int multiplier = isAxisDirectionPositive ? 1 : -1;
                 outputVelocity = multiplier * currentMaxVelocity;
             }
         }
@@ -41,60 +73,82 @@ public class AnimationTwoDimentionsController : MonoBehaviour
         return outputVelocity;
     }
 
+    private float EstimateVelocityWhenKeyReleased(float currentVelocity, AxisDirection axisDirection)
+    {
+        // Target to reach at the end of deceleration when released key
+        float targetDeceleration = 0.0f;
+
+        // identify type of logic to be used for incrementing / decrementing values
+        bool isAxisDirectionPositive = IsAxisDirectionPositive(axisDirection);
+
+
+        // evaluate if we are above the threasold to allow deceleration
+        bool isVelocityAboveTarget =
+            isAxisDirectionPositive ?
+            currentVelocity > targetDeceleration :
+            currentVelocity < targetDeceleration;
+
+        // decrease module of the velocity to reach the target
+        if (isVelocityAboveTarget)
+        {
+            currentVelocity =
+                isAxisDirectionPositive ?
+                currentVelocity - Time.deltaTime * deceleration :
+                currentVelocity + Time.deltaTime * deceleration;
+        }
+
+        // Check if value overshoot target value and set to extact target value
+        bool isVelocityOvershootingTargetValue =
+            isAxisDirectionPositive ?
+            currentVelocity > targetDeceleration :
+            currentVelocity < targetDeceleration;
+
+        if (isVelocityOvershootingTargetValue)
+        {
+            currentVelocity = targetDeceleration;
+        }
+
+        return currentVelocity;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        bool forwardPressed = Input.GetKey("w");
-        bool rightPressed = Input.GetKey("d");
-        bool leftPressed = Input.GetKey("a");
-        bool runpressed = Input.GetKey("left shift");
+        // evaluate state of key
+
+        bool forwardPressed = Input.GetKey(KeyCode.W);
+        bool rightPressed = Input.GetKey(KeyCode.D);
+        bool leftPressed = Input.GetKey(KeyCode.A);
+        bool runpressed = Input.GetKey(KeyCode.LeftShift);
+
+        // 
+        float maxVelocity = runpressed ? maximumRunVelocity : maximumWalkVelocity;
+
+        velocityZ = forwardPressed ?
+            EstimateVelocityWhenKeyPressed(velocityZ, maxVelocity, AxisDirection.Positive):
+            EstimateVelocityWhenKeyReleased(velocityZ, AxisDirection.Positive);
+
+        velocityX = rightPressed ?
+            EstimateVelocityWhenKeyPressed(velocityX, maxVelocity, AxisDirection.Positive) :
+            EstimateVelocityWhenKeyReleased(velocityX, AxisDirection.Positive);
+
+        velocityX = leftPressed ?
+            EstimateVelocityWhenKeyPressed(velocityX, maxVelocity, AxisDirection.Negative) :
+            EstimateVelocityWhenKeyReleased(velocityX, AxisDirection.Negative);
 
 
-
-        float currentMaxVelocity = runpressed ? maximumRunVelocity : maximumWalkVelocity;
-
-        velocityZ = drive(forwardPressed, velocityZ, currentMaxVelocity,true);
-        velocityX = drive(rightPressed, velocityX, currentMaxVelocity, true);
-        velocityX = drive(leftPressed, velocityX, currentMaxVelocity, false);
-
-
-
-
-       
-        if (!forwardPressed && (velocityZ > 0))
-        {
-            velocityZ -= Time.deltaTime * deceleration;
-        }
-
-        if (!forwardPressed && velocityZ < 0)
-        {
-            velocityZ = 0;
-        }
-        
-
-        if (!leftPressed &&  velocityX < 0)
-        {
-            velocityX += Time.deltaTime * deceleration;
-        }
-
-        if (!rightPressed  && velocityX > 0)
-        {
-            velocityX -= Time.deltaTime * deceleration;
-        }
-
-        
-        bool velocityRange = (velocityX > -0.05) && (velocityX < 0.05);
-
-        if (!leftPressed && !rightPressed && velocityRange)
-        {
-            velocityX = 0;
-        }
-
-
-
-
-        animator.SetFloat("Velocity X", velocityX);
-        animator.SetFloat("Velocity Z", velocityZ);
+        animator.SetFloat(velocityXHash, velocityX);
+        animator.SetFloat(velocityZHash, velocityZ);
 
     }
+
+    private enum AxisDirection
+    { 
+        Negative = -1,
+        Positive = 1
+    }
+       
+
 }
+
+
