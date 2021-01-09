@@ -119,6 +119,7 @@ public class AnimationTwoDimentionsController : MonoBehaviour
         bool forwardPressed = Input.GetKey(KeyCode.W);
         bool rightPressed = Input.GetKey(KeyCode.D);
         bool leftPressed = Input.GetKey(KeyCode.A);
+        bool backwardPressed = Input.GetKey(KeyCode.S);
         bool runpressed = Input.GetKey(KeyCode.LeftShift);
 
         // 
@@ -127,6 +128,10 @@ public class AnimationTwoDimentionsController : MonoBehaviour
         velocityZ = forwardPressed ?
             EstimateVelocityWhenKeyPressed(velocityZ, maxVelocity, AxisDirection.Positive):
             EstimateVelocityWhenKeyReleased(velocityZ, AxisDirection.Positive);
+
+        velocityZ = backwardPressed ?
+            EstimateVelocityWhenKeyPressed(velocityZ, maxVelocity, AxisDirection.Negative) :
+            EstimateVelocityWhenKeyReleased(velocityZ, AxisDirection.Negative);
 
         velocityX = rightPressed ?
             EstimateVelocityWhenKeyPressed(velocityX, maxVelocity, AxisDirection.Positive) :
