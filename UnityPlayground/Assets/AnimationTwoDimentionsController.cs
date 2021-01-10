@@ -1,5 +1,7 @@
 using System;
+using Cinemachine;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class AnimationTwoDimentionsController : MonoBehaviour
 {
@@ -16,6 +18,43 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     int velocityXHash;
     int velocityZHash;
 
+    bool isWalking = false;
+    bool isrunning = false;
+
+    InputController inputController;
+
+
+    bool forwardPressed;
+    bool rightPressed;
+    bool leftPressed;
+    bool backwardPressed;
+    bool runPressed;
+
+    public CinemachineVirtualCamera camera;
+
+
+    //Awake
+
+    private void Awake()
+    {
+        inputController = new InputController();
+        inputController.CharacterInput.UpButton.performed += ctx => forwardPressed = ctx.ReadValueAsButton();
+        inputController.CharacterInput.DownButton.performed += ctx => backwardPressed = ctx.ReadValueAsButton();
+        inputController.CharacterInput.RightButton.performed += ctx => rightPressed = ctx.ReadValueAsButton();
+        inputController.CharacterInput.LeftButton.performed += ctx => leftPressed = ctx.ReadValueAsButton();
+        inputController.CharacterInput.RunButton.performed += ctx => runPressed = ctx.ReadValueAsButton();
+    }
+
+    private void OnEnable()
+    {
+        inputController.CharacterInput.Enable();
+    }
+
+    private void OnDisable()
+    {
+        inputController.CharacterInput.Disable();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +62,79 @@ public class AnimationTwoDimentionsController : MonoBehaviour
 
         velocityXHash = Animator.StringToHash("Velocity X");
         velocityZHash = Animator.StringToHash("Velocity Z");
+
+
+        
+
+
+    }
+
+
+    private void DetermineState()
+    {
+        if (Math.Abs(velocityZ)< maximumWalkVelocity || Math.Abs(velocityX)< maximumWalkVelocity)
+        {
+            isWalking = true;
+            isrunning = false;
+        }
+
+        if (Math.Abs(velocityZ) > maximumWalkVelocity || Math.Abs(velocityX) > maximumWalkVelocity)
+        {
+            isWalking = false;
+            isrunning = true;
+        }
+
+        if (Math.Abs(velocityZ)==0 && Math.Abs(velocityX) == 0)
+        {
+            isWalking = false;
+            isrunning = false;
+        }
+
+       
+    }
+       
+    private void handleMovement()
+    {
+        DetermineState();
+
+
+        if (forwardPressed)
+        {
+            this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
+
+        }
+
+        if (backwardPressed)
+        {
+            this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
+            this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, 1, 0), 180f);
+        }
+
+
+        if (rightPressed)
+        {
+            camera.GetCinemachineComponent<CinemachineTransposer>().m_YawDamping = 0;
+            this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, 3f, 0));
+        }
+
+        if (leftPressed)
+        {
+            camera.GetCinemachineComponent<CinemachineTransposer>().m_YawDamping = 0;
+            this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, -3f, 0));
+
+        }
+
+        if (!rightPressed && !leftPressed)
+        {
+            camera.GetCinemachineComponent<CinemachineTransposer>().m_YawDamping = 10;
+
+        }
+
+        
+
+
+
+
     }
 
     private bool IsAxisDirectionPositive(AxisDirection axisDirection)
@@ -114,16 +226,20 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        handleMovement();
+
+
         // evaluate state of key
 
-        bool forwardPressed = Input.GetKey(KeyCode.W);
-        bool rightPressed = Input.GetKey(KeyCode.D);
-        bool leftPressed = Input.GetKey(KeyCode.A);
-        bool backwardPressed = Input.GetKey(KeyCode.S);
-        bool runpressed = Input.GetKey(KeyCode.LeftShift);
+        //bool forwardPressed = true; // Input.GetKey(KeyCode.W);
+        //bool rightPressed = false;//Input.GetKey(KeyCode.D);
+        //bool leftPressed = false;// Input.GetKey(KeyCode.A);
+        //bool backwardPressed = false;// Input.GetKey(KeyCode.S);
+        //bool runpressed = false;//Input.GetKey(KeyCode.LeftShift);
 
         // 
-        float maxVelocity = runpressed ? maximumRunVelocity : maximumWalkVelocity;
+        float maxVelocity = runPressed ? maximumRunVelocity : maximumWalkVelocity;
 
         velocityZ = forwardPressed ?
             EstimateVelocityWhenKeyPressed(velocityZ, maxVelocity, AxisDirection.Positive):

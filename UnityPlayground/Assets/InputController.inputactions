@@ -1,0 +1,109 @@
+{
+    "name": "InputController",
+    "maps": [
+        {
+            "name": "CharacterInput",
+            "id": "61b8cbbf-05eb-4a49-b231-c07ed5c377a5",
+            "actions": [
+                {
+                    "name": "DownButton",
+                    "type": "Button",
+                    "id": "6f220cdd-8d75-4b2e-9285-6b85a0aa91db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "UpButton",
+                    "type": "Button",
+                    "id": "603dbac3-6b46-45a6-9a90-a121405aa7cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RunButton",
+                    "type": "Button",
+                    "id": "156e38dd-884c-49b3-b487-b152f58ed00d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightButton",
+                    "type": "Button",
+                    "id": "489aa19c-a69c-4bb0-bbad-7b828f48badb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftButton",
+                    "type": "Button",
+                    "id": "97fd4925-457e-4222-bff6-41e746bee5ca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec84ee15-d72c-42e8-9203-242fab8887e7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f086dcb5-504a-4e2f-8207-88671bb6b41b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24edff47-f576-4030-9192-e25ce9c9af7e",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RunButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8501c104-d3db-4e98-832b-31a50e22d81f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52273347-e80a-4331-b1ad-bb19cd4dc5a4",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

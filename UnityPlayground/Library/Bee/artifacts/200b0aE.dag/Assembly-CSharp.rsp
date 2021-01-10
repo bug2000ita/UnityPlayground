@@ -104,7 +104,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -307,6 +307,7 @@
 -r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.ProBuilder.AddOns.Editor.ref.dll"
@@ -336,6 +337,7 @@
 "Assets/AnimationTwoDimentionsController.cs"
 "Assets/Cool Visual Effects - Part 1/Scripts/ConstantRotation.cs"
 "Assets/Cool Visual Effects - Part 1/Scripts/EffectManager.cs"
+"Assets/InputController.cs"
 -langversion:8.0
 
 /deterministic

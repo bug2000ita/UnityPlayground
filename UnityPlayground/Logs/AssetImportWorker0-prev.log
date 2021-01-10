@@ -12,511 +12,475 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50960
+53044
 Successfully changed project path to: /Users/bug2000/Dev/UnityPlayground/UnityPlayground
 /Users/bug2000/Dev/UnityPlayground/UnityPlayground
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0b1 (9f7c487dd2da)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-01-09 17:59:33.532 Unity[2662:169163] SAMSUNG preferred device: NVIDIA GeForce GT 750M (high power)
-2021-01-09 17:59:33.532 Unity[2662:169163] Metal devices available: 2
-2021-01-09 17:59:33.532 Unity[2662:169163] 0: NVIDIA GeForce GT 750M (high power)
-2021-01-09 17:59:33.532 Unity[2662:169163] 1: Intel Iris Pro Graphics (low power)
-2021-01-09 17:59:33.533 Unity[2662:169163] Using device NVIDIA GeForce GT 750M (high power)
+2021-01-09 21:32:57.533 Unity[3744:330912] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
+2021-01-09 21:32:57.533 Unity[3744:330912] Metal devices available: 2
+2021-01-09 21:32:57.533 Unity[3744:330912] 0: NVIDIA GeForce GT 750M (high power)
+2021-01-09 21:32:57.533 Unity[3744:330912] 1: Intel Iris Pro Graphics (low power)
+2021-01-09 21:32:57.534 Unity[3744:330912] Using device NVIDIA GeForce GT 750M (high power)
 Initializing Metal device caps: NVIDIA GeForce GT 750M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56662
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000985 seconds.
+Registered in 0.003678 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.982 seconds
+- Completed reload, in  3.788 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002679 seconds.
+Registered in 0.003626 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.791 seconds
+- Completed reload, in  1.645 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 359.0 MB.
-System memory in use after: 359.2 MB.
+System memory in use before: 360.6 MB.
+System memory in use after: 360.7 MB.
 
-Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 3696.
-Total: 3.840568 ms (FindLiveObjects: 0.472753 ms CreateObjectMapping: 0.256819 ms MarkObjects: 2.894682 ms  DeleteObjects: 0.215412 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Jammo-Character/Materials
-  artifactKey: Guid(bed38063483647a43b9793440e0e391d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Materials using Guid(bed38063483647a43b9793440e0e391d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8a9148e15109d92deb8d2e9eb10901') in 0.006099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028282 seconds.
-  path: Assets/Jammo-Character/Models/Jammo_LowPoly.fbx
-  artifactKey: Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Models/Jammo_LowPoly.fbx using Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddf40d5e345ec92e89b3046b366c56a') in 1.516896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029981 seconds.
-  path: Assets/Jammo-Character/Models
-  artifactKey: Guid(9a9668dd0126a234db37aeb2e80695fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Models using Guid(9a9668dd0126a234db37aeb2e80695fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93c9cdf8af71c49ed0745ea2c2ae094') in 0.001021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.377666 seconds.
-  path: Assets/Robot Kyle/Model
-  artifactKey: Guid(917c6ed69269b417f9bb1d5bd95b844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model using Guid(917c6ed69269b417f9bb1d5bd95b844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd039606cb14c1399bd23a7de218471fe') in 0.001181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.387366 seconds.
-  path: Assets/Robot Kyle/Model/Robot Kyle.fbx
-  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f6194ff4eebed9e4557e95682e7db3') in 0.353282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 426.139904 seconds.
-  path: Assets/Character/Ch16_nonPBR@Jumping.fbx
-  artifactKey: Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@Jumping.fbx using Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bd2209765ee9cfe8483b4c0c0eaafd') in 1.154904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 582.259911 seconds.
-  path: Assets/Character/Left Strafe Walk.anim
-  artifactKey: Guid(83e85b109f9084d88b060489b6905a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Left Strafe Walk.anim using Guid(83e85b109f9084d88b060489b6905a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8d2d5ab72cefe2108d915870e8f161') in 1.310632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.124106 seconds.
-  path: Assets/Character/Ch16_nonPBR@Jumping.fbx
-  artifactKey: Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@Jumping.fbx using Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022260247698661f6229c0ec205b2368') in 0.301737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027465 seconds.
-  path: Assets/Character/Ch16_body1.mat
-  artifactKey: Guid(0afe4def11feb4e69a62f34e32aad05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_body1.mat using Guid(0afe4def11feb4e69a62f34e32aad05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262a91e081ea86b37c05a0ce05574a1c') in 0.406934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028431 seconds.
-  path: Assets/Character/Ch16_eyelashes.mat
-  artifactKey: Guid(8ba684eefd8ce4aee8b2a9ae07bd85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_eyelashes.mat using Guid(8ba684eefd8ce4aee8b2a9ae07bd85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b2184a473a3e9a67afda2d54c4f0ac') in 0.013973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021015 seconds.
-  path: Assets/Character/Ch16_Body.mat
-  artifactKey: Guid(17bf156469f5e452fa489ebc18a2ca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_Body.mat using Guid(17bf156469f5e452fa489ebc18a2ca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ccb80c5b7653b76e3ac6a938d05c6b') in 0.014625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.400681 seconds.
-  path: Assets/Jammo-Character/Materials/m_ground.mat
-  artifactKey: Guid(ac02e0546055b854f8600e1708139ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Materials/m_ground.mat using Guid(ac02e0546055b854f8600e1708139ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7acf8f4e45325e4dd68205ba2ceb66') in 0.018954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028625 seconds.
-  path: Assets/Jammo-Character/Materials/m_jammo_eyes.mat
-  artifactKey: Guid(d5c0dc78f40c06c4e9356a3218da955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Materials/m_jammo_eyes.mat using Guid(d5c0dc78f40c06c4e9356a3218da955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c776809851352c7d2a58b90bb014efff') in 0.022439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024587 seconds.
-  path: Assets/Jammo-Character/Materials/Skybox.mat
-  artifactKey: Guid(d69071256986a1c4bb4872d222c6ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Materials/Skybox.mat using Guid(d69071256986a1c4bb4872d222c6ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52965f1b76245882c4fca0e45e391290') in 0.030025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026093 seconds.
-  path: Assets/Robot Kyle/Materials/Robot_Color.mat
-  artifactKey: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f42c1bcbf403f7b6d8c1fa661e6782') in 0.065764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023415 seconds.
-  path: Assets/Jammo-Character/Materials/m_jammo_metal.mat
-  artifactKey: Guid(60c2f0e0aaa8f8d4e9d23d7e3768653b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Materials/m_jammo_metal.mat using Guid(60c2f0e0aaa8f8d4e9d23d7e3768653b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33a9d82ff90562ed8d4a5875692abcc') in 0.093571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.064544 seconds.
-  path: Assets/Character/Ch16_nonPBR@Jumping.fbx
-  artifactKey: Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@Jumping.fbx using Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3fc520f89cb6691fde288ef7b4c399') in 0.195681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.708564 seconds.
-  path: Assets/Character/Ch16_nonPBR@Jumping.fbx
-  artifactKey: Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@Jumping.fbx using Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e153b2fb0f8d11cddaabe7ecb07427') in 0.157009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.273907 seconds.
-  path: Assets/Jammo-Character/Textures/jammo_eyes.png
-  artifactKey: Guid(09beef63c41c25b458d2f95fdfd9e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Textures/jammo_eyes.png using Guid(09beef63c41c25b458d2f95fdfd9e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea7138634e0bb153c80e3c979fff47a') in 1.222929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029470 seconds.
-  path: Assets/Jammo-Character/Textures/mixbot_low_mixamo_edit1_MetallicSmoothness.png
-  artifactKey: Guid(3a5a871d579c2da4094f823d674595eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Textures/mixbot_low_mixamo_edit1_MetallicSmoothness.png using Guid(3a5a871d579c2da4094f823d674595eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00288d4737aba0faddea8fc5a68cc26d') in 0.051529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024376 seconds.
-  path: Assets/Jammo-Character/Textures/mixbot_low_mixamo_edit1_AlbedoTransparency.png
-  artifactKey: Guid(fb6e06c953f0d8045bc58e0f5a640f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Textures/mixbot_low_mixamo_edit1_AlbedoTransparency.png using Guid(fb6e06c953f0d8045bc58e0f5a640f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59166e29a598029fbbe5b9446827d9e0') in 0.034074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023860 seconds.
-  path: Assets/Jammo-Character/Textures/mixbot_low_mixamo_edit1_AO.png
-  artifactKey: Guid(6a0fb4aa4de843c45a776e5a4ac9dd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Textures/mixbot_low_mixamo_edit1_AO.png using Guid(6a0fb4aa4de843c45a776e5a4ac9dd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59565e454b9896ee07ffaafa8bf60718') in 0.026714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 687.057765 seconds.
-  path: Assets/Character/Ch16_body1.mat
-  artifactKey: Guid(0afe4def11feb4e69a62f34e32aad05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_body1.mat using Guid(0afe4def11feb4e69a62f34e32aad05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f025493d2b24947b57a96e789984e') in 0.021696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027639 seconds.
-  path: Assets/Character/Ch16_eyelashes.mat
-  artifactKey: Guid(8ba684eefd8ce4aee8b2a9ae07bd85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_eyelashes.mat using Guid(8ba684eefd8ce4aee8b2a9ae07bd85b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb29fad4625a589f3ecf366bb230ed7') in 0.013030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 213.179788 seconds.
-  path: Assets/Character/RetargetController.controller
-  artifactKey: Guid(716218600fcb44b76bf7c2becfd65ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/RetargetController.controller using Guid(716218600fcb44b76bf7c2becfd65ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8454744bc7ec4fa6f3ef58f7c8e88917') in 0.197512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.241097 seconds.
-  path: Assets/Character/YBotController.controller
-  artifactKey: Guid(04258120f942a4847a467ce94a4ef725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/YBotController.controller using Guid(04258120f942a4847a467ce94a4ef725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510a2a4a2cb9ffda9a5798dbe514eb0c') in 0.074021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.986352 seconds.
-  path: Assets/Character/Jumping.anim
-  artifactKey: Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Jumping.anim using Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b003aa95a57de487f1b19befc2c85dbb') in 0.012637 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003840 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.565 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 411.7 MB.
-System memory in use after: 411.8 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3806.
-Total: 3.558867 ms (FindLiveObjects: 0.337675 ms CreateObjectMapping: 0.135127 ms MarkObjects: 2.954759 ms  DeleteObjects: 0.129514 ms)
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 3697.
+Total: 3.656861 ms (FindLiveObjects: 0.352592 ms CreateObjectMapping: 0.207997 ms MarkObjects: 2.892423 ms  DeleteObjects: 0.202812 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 623.824961 seconds.
-  path: Assets/Character/Ch16_nonPBR@Jumping.fbx
-  artifactKey: Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@Jumping.fbx using Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d2450c485786009fd4c3e5f4ffb27d') in 0.212456 seconds 
+  path: Assets/templateHumanoid.ht
+  artifactKey: Guid(2e4f19b6a2ce04d97846b99b428313e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/templateHumanoid.ht using Guid(2e4f19b6a2ce04d97846b99b428313e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba8c145cb56315246f4d44a2943d9f4') in 0.963632 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4934.741700 seconds.
-  path: Assets/Character/Ch16_nonPBR@Jumping.fbx
-  artifactKey: Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@Jumping.fbx using Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19af292160212ce2f536fe3b4c3578dd') in 0.254311 seconds 
+  Time since last request: 0.026262 seconds.
+  path: Assets/Character/Right Strafe Walk.anim
+  artifactKey: Guid(221685036e2c74cdca5a10d8e8cf4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Right Strafe Walk.anim using Guid(221685036e2c74cdca5a10d8e8cf4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc4703056cdc59cfbf06dea31ec5c1a') in 0.367123 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.305489 seconds.
-  path: Assets/Character/Ch16_nonPBR@JumpingAvatar.asset
-  artifactKey: Guid(73bc8da4b5b49491d96da6762f501b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@JumpingAvatar.asset using Guid(73bc8da4b5b49491d96da6762f501b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30109d6cfc548dad771a200fcb494216') in 0.185350 seconds 
+  Time since last request: 30.544415 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(9ef79866ca3864238b259e81f9866afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(9ef79866ca3864238b259e81f9866afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b578bda5ed1765ff0e1fd03815d273') in 0.002999 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 160.482442 seconds.
-  path: Assets/Character/Jumping.anim
-  artifactKey: Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Jumping.anim using Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08393fe9ea01c7e7ac7f2461864e632') in 0.026046 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003486 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.523 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 417.2 MB.
-System memory in use after: 417.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3809.
-Total: 4.546771 ms (FindLiveObjects: 0.537247 ms CreateObjectMapping: 0.269861 ms MarkObjects: 3.583063 ms  DeleteObjects: 0.154737 ms)
-
+  Time since last request: 12.674050 seconds.
+  path: Assets/New Folder 1
+  artifactKey: Guid(cb1019550fc6446eeb443dec1d964205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder 1 using Guid(cb1019550fc6446eeb443dec1d964205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9686a597f55aa30e3d476753f66cc8a1') in 0.002723 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 93.560103 seconds.
-  path: Assets/Jammo-Character/Models/Jammo_LowPoly.fbx
-  artifactKey: Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Models/Jammo_LowPoly.fbx using Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f132f6d40bd47485b06b9c9c162895') in 0.447737 seconds 
+  Time since last request: 16.032733 seconds.
+  path: Assets/AnimationRetarget
+  artifactKey: Guid(9ef79866ca3864238b259e81f9866afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget using Guid(9ef79866ca3864238b259e81f9866afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c299a54d81f2e28a3d5dde7442da96') in 0.001803 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.074902 seconds.
-  path: Assets/Robot Kyle/Model/Robot Kyle.fbx
-  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d761161dbf0871caded36df812e57f') in 0.068799 seconds 
+  Time since last request: 64.728615 seconds.
+  path: Assets/AnimationRetarget/xbot@Jumping.fbx
+  artifactKey: Guid(9536226992cb1427c8fb2804971b0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Jumping.fbx using Guid(9536226992cb1427c8fb2804971b0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a979556bb747269532e4444b4909136c') in 0.663369 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 194.418936 seconds.
-  path: Assets/Character/xbot@Sad Idle.fbx
-  artifactKey: Guid(0fe713f07e74b4853a36e3ef04c371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/xbot@Sad Idle.fbx using Guid(0fe713f07e74b4853a36e3ef04c371c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb538df7a5a379a6482e26db524c96d') in 0.162851 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004879 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.876 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 419.1 MB.
-System memory in use after: 419.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3812.
-Total: 4.737852 ms (FindLiveObjects: 0.322628 ms CreateObjectMapping: 0.171890 ms MarkObjects: 4.079405 ms  DeleteObjects: 0.162611 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004825 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.405 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 419.7 MB.
-System memory in use after: 419.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3814.
-Total: 5.130119 ms (FindLiveObjects: 0.462575 ms CreateObjectMapping: 0.189215 ms MarkObjects: 4.311948 ms  DeleteObjects: 0.164978 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002183 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 420.2 MB.
-System memory in use after: 420.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3816.
-Total: 4.467722 ms (FindLiveObjects: 0.443013 ms CreateObjectMapping: 0.191513 ms MarkObjects: 3.686411 ms  DeleteObjects: 0.145368 ms)
-
+  Time since last request: 0.028910 seconds.
+  path: Assets/AnimationRetarget/xbot@Walk Backwards.fbx
+  artifactKey: Guid(f4a938f4213264976a3b3c61898ff9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Walk Backwards.fbx using Guid(f4a938f4213264976a3b3c61898ff9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eae5bf78a40d17950834d40e97f374') in 0.072940 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 446.412081 seconds.
-  path: Assets/Character/xbot@Orc Idle.fbx
-  artifactKey: Guid(733ccccbfd3514e9a952d72a29cb4625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/xbot@Orc Idle.fbx using Guid(733ccccbfd3514e9a952d72a29cb4625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e82a11fef0a7cd6fa912d9e2f4e69a9') in 0.233270 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 420.9 MB.
-System memory in use after: 421.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3819.
-Total: 4.850789 ms (FindLiveObjects: 0.556069 ms CreateObjectMapping: 0.261842 ms MarkObjects: 3.869016 ms  DeleteObjects: 0.161902 ms)
-
+  Time since last request: 0.028627 seconds.
+  path: Assets/AnimationRetarget/xbot@Orc Idle.fbx
+  artifactKey: Guid(ef72f7d1212df416598835dbaaa9faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Orc Idle.fbx using Guid(ef72f7d1212df416598835dbaaa9faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2899452aa48044ad8e7610b573c55dd7') in 0.085504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 133.183741 seconds.
-  path: Assets/Jammo-Character/Models/Jammo_LowPoly.fbx
-  artifactKey: Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Models/Jammo_LowPoly.fbx using Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab1211ba60c9ef25aa17b91faa8afec') in 0.393917 seconds 
+  Time since last request: 0.028266 seconds.
+  path: Assets/AnimationRetarget/xbot@Walking.fbx
+  artifactKey: Guid(0de8a2d06e4134c9a93528f16c0976bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Walking.fbx using Guid(0de8a2d06e4134c9a93528f16c0976bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b95ea45f5cfbd3b3293deb4c0eb236') in 0.087878 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.864327 seconds.
-  path: Assets/Robot Kyle/Model/Robot Kyle.fbx
-  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb975575ac758806a1211fefb9ec41e2') in 0.054836 seconds 
+  Time since last request: 0.030242 seconds.
+  path: Assets/AnimationRetarget/xbot@Left Strafe Walk.fbx
+  artifactKey: Guid(2341a8e48ff1848fe8c46c5dfb9317a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Left Strafe Walk.fbx using Guid(2341a8e48ff1848fe8c46c5dfb9317a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5e7156fadd821de8138e5db479d57d') in 0.104438 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.697404 seconds.
-  path: Assets/Character/Ch16_nonPBR@Jumping.fbx
-  artifactKey: Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Ch16_nonPBR@Jumping.fbx using Guid(1bf4c575b6bec41fb94fb88753c9d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f90e3cd012afbe7695709acd7c1939') in 0.219535 seconds 
+  Time since last request: 0.031675 seconds.
+  path: Assets/AnimationRetarget/xbot@Sad Idle.fbx
+  artifactKey: Guid(cda6d6fa575fa4d4983f56dd2ab7efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Sad Idle.fbx using Guid(cda6d6fa575fa4d4983f56dd2ab7efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4247851a777bc722b9f3a263406edb') in 0.079331 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.728209 seconds.
-  path: Assets/Character/Jumping.anim
-  artifactKey: Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Jumping.anim using Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa5ebb9003e7f8eaf0576ffa9d4dd61') in 0.023200 seconds 
+  Time since last request: 0.031776 seconds.
+  path: Assets/AnimationRetarget/xbot@Left Strafe.fbx
+  artifactKey: Guid(486710deafd654952a08334dc860321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Left Strafe.fbx using Guid(486710deafd654952a08334dc860321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ef3920786716847f701675d5473d9') in 0.086117 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.198939 seconds.
+  Time since last request: 0.033071 seconds.
+  path: Assets/AnimationRetarget/xbot@Right Strafe Walk.fbx
+  artifactKey: Guid(b7c09a7e5c0fb4c30a84630e15f2a0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Right Strafe Walk.fbx using Guid(b7c09a7e5c0fb4c30a84630e15f2a0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5386805c468d269e2ee70f870883b3') in 0.100422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030621 seconds.
+  path: Assets/AnimationRetarget/xbot@Running.fbx
+  artifactKey: Guid(63e51ccc7d8a7401da37e02d0bc4f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Running.fbx using Guid(63e51ccc7d8a7401da37e02d0bc4f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cce7942a2f5a828bfde5b40f3731c7a') in 0.097789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027592 seconds.
+  path: Assets/AnimationRetarget/xbot@Right Strafe.fbx
+  artifactKey: Guid(804f0995cff5c45f6b9c92f306d3746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Right Strafe.fbx using Guid(804f0995cff5c45f6b9c92f306d3746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a162abc39811b6dd8f4d4a824fcfd3') in 0.083600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.445017 seconds.
+  path: Assets/AnimationRetarget/xbot@Jumping.fbx
+  artifactKey: Guid(9536226992cb1427c8fb2804971b0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Jumping.fbx using Guid(9536226992cb1427c8fb2804971b0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995562cdcf8eadf5e563ce9e50eac850') in 0.125620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.767485 seconds.
+  path: Assets/AnimationRetarget/xbot@Walk Backwards.fbx
+  artifactKey: Guid(f4a938f4213264976a3b3c61898ff9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Walk Backwards.fbx using Guid(f4a938f4213264976a3b3c61898ff9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8510714fb844268b9406408e8e861aaa') in 0.137886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022974 seconds.
+  path: Assets/AnimationRetarget/xbot@Orc Idle.fbx
+  artifactKey: Guid(ef72f7d1212df416598835dbaaa9faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Orc Idle.fbx using Guid(ef72f7d1212df416598835dbaaa9faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5a7c8a4eaf7f63423ccc82bdd1c8f4') in 0.112238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019965 seconds.
+  path: Assets/AnimationRetarget/xbot@Walking.fbx
+  artifactKey: Guid(0de8a2d06e4134c9a93528f16c0976bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Walking.fbx using Guid(0de8a2d06e4134c9a93528f16c0976bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823ece1640ba83fe4a54cc8fab266c21') in 0.095332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024852 seconds.
+  path: Assets/AnimationRetarget/xbot@Left Strafe Walk.fbx
+  artifactKey: Guid(2341a8e48ff1848fe8c46c5dfb9317a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Left Strafe Walk.fbx using Guid(2341a8e48ff1848fe8c46c5dfb9317a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f0c68bd97aaa13d13bed01a13e0ce1') in 0.076215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027620 seconds.
+  path: Assets/AnimationRetarget/xbot@Sad Idle.fbx
+  artifactKey: Guid(cda6d6fa575fa4d4983f56dd2ab7efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Sad Idle.fbx using Guid(cda6d6fa575fa4d4983f56dd2ab7efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e7faa34a2972bd32735ee4e1659eab') in 0.076187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029138 seconds.
+  path: Assets/AnimationRetarget/xbot@Left Strafe.fbx
+  artifactKey: Guid(486710deafd654952a08334dc860321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Left Strafe.fbx using Guid(486710deafd654952a08334dc860321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb76aca9dfe15f81e0edaee293dd3538') in 0.079277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028450 seconds.
+  path: Assets/AnimationRetarget/xbot@Right Strafe Walk.fbx
+  artifactKey: Guid(b7c09a7e5c0fb4c30a84630e15f2a0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Right Strafe Walk.fbx using Guid(b7c09a7e5c0fb4c30a84630e15f2a0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8e9a40980abc4710d50957c5bbbbc6') in 0.082599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034136 seconds.
+  path: Assets/AnimationRetarget/xbot@Running.fbx
+  artifactKey: Guid(63e51ccc7d8a7401da37e02d0bc4f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Running.fbx using Guid(63e51ccc7d8a7401da37e02d0bc4f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8710098b2c99e53249cdf7ee9527f16') in 0.080751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028773 seconds.
+  path: Assets/AnimationRetarget/xbot@Right Strafe.fbx
+  artifactKey: Guid(804f0995cff5c45f6b9c92f306d3746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Right Strafe.fbx using Guid(804f0995cff5c45f6b9c92f306d3746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e636f82088fd2a45b1c9b0523f7dd6') in 0.099851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.047921 seconds.
+  path: Assets/AnimationRetarget/xbot@Jumping.fbx
+  artifactKey: Guid(9536226992cb1427c8fb2804971b0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/xbot@Jumping.fbx using Guid(9536226992cb1427c8fb2804971b0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67db43d697d0b94c594903a69d9d4255') in 0.120627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.251896 seconds.
+  path: Assets/AnimationRetarget/Jumping.anim
+  artifactKey: Guid(881b2357fc1de41aaab3b0974cd0f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Jumping.anim using Guid(881b2357fc1de41aaab3b0974cd0f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13eedef658503f4ed9642277d4f7862d') in 0.018111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.829778 seconds.
+  path: Assets/AnimationRetarget/Left Strafe Walk.anim
+  artifactKey: Guid(051555ab434b7427caefed2389ad7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Left Strafe Walk.anim using Guid(051555ab434b7427caefed2389ad7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709f3cf7ec42b0eb9cee3d01aa6a1f6e') in 0.009876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.166419 seconds.
+  path: Assets/AnimationRetarget/Left Strafe.anim
+  artifactKey: Guid(e4f5a838bb1764e0dba354674d9a98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Left Strafe.anim using Guid(e4f5a838bb1764e0dba354674d9a98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9971de38b50df24cf650318450288b') in 0.010562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.874511 seconds.
+  path: Assets/AnimationRetarget/Orc Idle.anim
+  artifactKey: Guid(2f26c6b87d8e14727802d4a22ec08ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Orc Idle.anim using Guid(2f26c6b87d8e14727802d4a22ec08ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef5fd1f172582d05de005c3baa58c28') in 0.017718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.715886 seconds.
+  path: Assets/AnimationRetarget/Right Strafe Walk.anim
+  artifactKey: Guid(38f2685bd8aec465ab0d681346f8aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Right Strafe Walk.anim using Guid(38f2685bd8aec465ab0d681346f8aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112c63fe55cd3858cf8f2cca95227380') in 0.009955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.075860 seconds.
+  path: Assets/AnimationRetarget/Right Strafe.anim
+  artifactKey: Guid(4a6a5f708125d4af9b9367bf4b4482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Right Strafe.anim using Guid(4a6a5f708125d4af9b9367bf4b4482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e255f5fd6ccb1859b47b627003f44f4') in 0.011490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.426220 seconds.
+  path: Assets/AnimationRetarget/Running.anim
+  artifactKey: Guid(fd5375fa56bff4b5e8cb7ecce92c7554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Running.anim using Guid(fd5375fa56bff4b5e8cb7ecce92c7554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2abc6a65a463e0444688a249d5be79') in 0.009886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.711435 seconds.
+  path: Assets/AnimationRetarget/Sad Idle.anim
+  artifactKey: Guid(3d3119e7c1b2e459c85693978e67acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Sad Idle.anim using Guid(3d3119e7c1b2e459c85693978e67acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdc1341f3983ff0e944c4e7cb23c63e') in 0.013298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.659291 seconds.
+  path: Assets/AnimationRetarget/Walk Backwards.anim
+  artifactKey: Guid(7340ce66f49ed44208151fc05b7aa1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Walk Backwards.anim using Guid(7340ce66f49ed44208151fc05b7aa1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511c4eb94565a9048cf060a9b9f6d22') in 0.020600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.842287 seconds.
+  path: Assets/AnimationRetarget/Walking.anim
+  artifactKey: Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Walking.anim using Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f946d5f8cbcc61072e97030f9782b8e5') in 0.012243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.417849 seconds.
+  path: Assets/AnimationRetarget/JumpingRetarget.anim
+  artifactKey: Guid(881b2357fc1de41aaab3b0974cd0f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/JumpingRetarget.anim using Guid(881b2357fc1de41aaab3b0974cd0f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ed0139665cfe3e897c6c6fa3a7e800') in 0.014559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.012747 seconds.
+  path: Assets/AnimationRetarget/Left Strafe Walk Retarget.anim
+  artifactKey: Guid(051555ab434b7427caefed2389ad7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Left Strafe Walk Retarget.anim using Guid(051555ab434b7427caefed2389ad7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62af9304e8301a1ca3f4b258e8614a6c') in 0.008681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.471249 seconds.
+  path: Assets/AnimationRetarget/Left Strafe Retarget.anim
+  artifactKey: Guid(e4f5a838bb1764e0dba354674d9a98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Left Strafe Retarget.anim using Guid(e4f5a838bb1764e0dba354674d9a98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5beb99efdfb69ee0c12883f471e6cb5d') in 0.009295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.010548 seconds.
+  path: Assets/AnimationRetarget/Orc Idle Retarget.anim
+  artifactKey: Guid(2f26c6b87d8e14727802d4a22ec08ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Orc Idle Retarget.anim using Guid(2f26c6b87d8e14727802d4a22ec08ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b43bf6911cef28c5a01cebfdbba8b31') in 0.012294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.517714 seconds.
+  path: Assets/AnimationRetarget/Right Strafe Walk Retarget.anim
+  artifactKey: Guid(38f2685bd8aec465ab0d681346f8aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Right Strafe Walk Retarget.anim using Guid(38f2685bd8aec465ab0d681346f8aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2bd47ea0323cb40280aa0c1b061b87') in 0.008951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.147787 seconds.
+  path: Assets/AnimationRetarget/Right Strafe Retarget.anim
+  artifactKey: Guid(4a6a5f708125d4af9b9367bf4b4482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Right Strafe Retarget.anim using Guid(4a6a5f708125d4af9b9367bf4b4482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6360e058dbc9d9faa15bf1ce262460') in 0.008519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.552417 seconds.
+  path: Assets/AnimationRetarget/Running Retarget.anim
+  artifactKey: Guid(fd5375fa56bff4b5e8cb7ecce92c7554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Running Retarget.anim using Guid(fd5375fa56bff4b5e8cb7ecce92c7554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26651141507b2e6bc7a71df6e43801fa') in 0.008924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.707807 seconds.
+  path: Assets/AnimationRetarget/Sad Idle Retarget.anim
+  artifactKey: Guid(3d3119e7c1b2e459c85693978e67acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Sad Idle Retarget.anim using Guid(3d3119e7c1b2e459c85693978e67acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d3bd9fc417d8bb32a8d9ce2a5332c1') in 0.012179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.279257 seconds.
+  path: Assets/AnimationRetarget/Walk Backwards Retarget.anim
+  artifactKey: Guid(7340ce66f49ed44208151fc05b7aa1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Walk Backwards Retarget.anim using Guid(7340ce66f49ed44208151fc05b7aa1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa3f1aa388fdd1c81d8ffbdd5a3445b') in 0.018525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.562609 seconds.
+  path: Assets/AnimationRetarget/Walking Retarget.anim
+  artifactKey: Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Walking Retarget.anim using Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e001a9c4d73ca3a486a13330e61538') in 0.009111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.027556 seconds.
   path: Assets/Character/JumpingHumanoid.anim
   artifactKey: Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/JumpingHumanoid.anim using Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aa4c16408cef84df63489052a82238') in 0.016715 seconds 
+Start importing Assets/Character/JumpingHumanoid.anim using Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc1e996cf2a48c2bab3aa241f3e9b3f') in 0.035978 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.775227 seconds.
-  path: Assets/Character/RetargetController.controller
-  artifactKey: Guid(716218600fcb44b76bf7c2becfd65ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/RetargetController.controller using Guid(716218600fcb44b76bf7c2becfd65ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa511bfd9f88af864674d078f2b713d') in 0.022929 seconds 
+  Time since last request: 14.295379 seconds.
+  path: Assets/Character/YBotController 1.controller
+  artifactKey: Guid(0e4912df50b8642868a96893c9daeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/YBotController 1.controller using Guid(0e4912df50b8642868a96893c9daeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a46cc4d1b6a1d3fce5e1341ba1b0fb8') in 0.271418 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.503005 seconds.
-  path: Assets/Character/JumpingHumanoid.anim
-  artifactKey: Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/JumpingHumanoid.anim using Guid(d3c88eec65d8b4cb99b53becb261641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80709c14073c06d9802c6f5751a4aaef') in 0.022285 seconds 
+  Time since last request: 66.093133 seconds.
+  path: Assets/Character 1/Ch16_Body.mat
+  artifactKey: Guid(ce75acfadcb244f1294e563587d3aa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character 1/Ch16_Body.mat using Guid(ce75acfadcb244f1294e563587d3aa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98c10fc9b22b6f62ff60b3e10142542') in 0.224925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025020 seconds.
+  path: Assets/Character/YBotController 1.controller
+  artifactKey: Guid(0e4912df50b8642868a96893c9daeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/YBotController 1.controller using Guid(0e4912df50b8642868a96893c9daeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ec27ff9c7fd9c70a84135713c4db1b') in 0.068391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026113 seconds.
+  path: Assets/Character 1/Ch16_nonPBR@Jumping.fbx
+  artifactKey: Guid(73ec78fd501f34ab899e32259b9061e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character 1/Ch16_nonPBR@Jumping.fbx using Guid(73ec78fd501f34ab899e32259b9061e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f4876d62d855a5b68f702c3356f51b') in 0.201798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024629 seconds.
+  path: Assets/Character 1/Ch16_eyelashes.mat
+  artifactKey: Guid(6a2472dcc14e140a4b0b62c527a67a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character 1/Ch16_eyelashes.mat using Guid(6a2472dcc14e140a4b0b62c527a67a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb6a50ec6d3a07020b76432c3da4414') in 0.016336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021977 seconds.
+  path: Assets/Character 1/xbot@Orc Idle.fbx
+  artifactKey: Guid(2b6962810c8fd4bf38101e9254ca4a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character 1/xbot@Orc Idle.fbx using Guid(2b6962810c8fd4bf38101e9254ca4a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee60fdca52de6eb66f23305240600a3') in 0.103614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022442 seconds.
+  path: Assets/Character 1/Ch16_body1.mat
+  artifactKey: Guid(bfa8d8d0e18264e2dadefff96231c302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character 1/Ch16_body1.mat using Guid(bfa8d8d0e18264e2dadefff96231c302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b71288b88dad67939010028532b9ca4') in 0.021926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.748716 seconds.
+  path: Assets/Character 1/YBotController 1.controller
+  artifactKey: Guid(cc7c05eeb4b6a48ecb393b3f8291f658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character 1/YBotController 1.controller using Guid(cc7c05eeb4b6a48ecb393b3f8291f658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fd3550450dafab019260cc6fd584ef') in 0.029872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.277695 seconds.
+  path: Assets/Character/YBotController 2.controller
+  artifactKey: Guid(aa795b7e9884542e89998f96e6862fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/YBotController 2.controller using Guid(aa795b7e9884542e89998f96e6862fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b7d9843b57eb663dc95b998057a96b') in 0.029896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.549897 seconds.
+  path: Assets/AnimationRetarget/YBotRetargetController.controller
+  artifactKey: Guid(aa795b7e9884542e89998f96e6862fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/YBotRetargetController.controller using Guid(aa795b7e9884542e89998f96e6862fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd751e2b52e42c591c2b804273c59462e') in 0.030290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 286.574889 seconds.
+  path: Assets/AnimationRetarget/JumpingRetarget.anim
+  artifactKey: Guid(881b2357fc1de41aaab3b0974cd0f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/JumpingRetarget.anim using Guid(881b2357fc1de41aaab3b0974cd0f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bb1276da94de68466707b44fe551fd') in 0.015383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.947262 seconds.
+  path: Assets/AnimationRetarget/Walking Retarget.anim
+  artifactKey: Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Walking Retarget.anim using Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b814e44c6ecadf89393ec812d54e8d') in 0.019861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.336636 seconds.
+  path: Assets/AnimationRetarget/Left Strafe Retarget.anim
+  artifactKey: Guid(e4f5a838bb1764e0dba354674d9a98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Left Strafe Retarget.anim using Guid(e4f5a838bb1764e0dba354674d9a98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1888fa06048525a8bc67f6227fd8743') in 0.020003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.823520 seconds.
+  path: Assets/AnimationRetarget/Left Strafe Walk Retarget.anim
+  artifactKey: Guid(051555ab434b7427caefed2389ad7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Left Strafe Walk Retarget.anim using Guid(051555ab434b7427caefed2389ad7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f403471f62fa6c61b906d4d161e99') in 0.020474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.688364 seconds.
+  path: Assets/AnimationRetarget/Orc Idle Retarget.anim
+  artifactKey: Guid(2f26c6b87d8e14727802d4a22ec08ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Orc Idle Retarget.anim using Guid(2f26c6b87d8e14727802d4a22ec08ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e31a93201260aab3d5d6eb97f05e9f3') in 0.026127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.355481 seconds.
+  path: Assets/AnimationRetarget/Right Strafe Retarget.anim
+  artifactKey: Guid(4a6a5f708125d4af9b9367bf4b4482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Right Strafe Retarget.anim using Guid(4a6a5f708125d4af9b9367bf4b4482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a686bae99aa3238fe85226aa4f2f7935') in 0.020104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.156725 seconds.
+  path: Assets/AnimationRetarget/Right Strafe Walk Retarget.anim
+  artifactKey: Guid(38f2685bd8aec465ab0d681346f8aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Right Strafe Walk Retarget.anim using Guid(38f2685bd8aec465ab0d681346f8aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af242c5199b57614caad9dc59dfc5883') in 0.019205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.273130 seconds.
+  path: Assets/AnimationRetarget/Running Retarget.anim
+  artifactKey: Guid(fd5375fa56bff4b5e8cb7ecce92c7554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Running Retarget.anim using Guid(fd5375fa56bff4b5e8cb7ecce92c7554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa65a305a23bba9213fee3ee7fc3f268') in 0.017491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.533361 seconds.
+  path: Assets/AnimationRetarget/Sad Idle Retarget.anim
+  artifactKey: Guid(3d3119e7c1b2e459c85693978e67acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Sad Idle Retarget.anim using Guid(3d3119e7c1b2e459c85693978e67acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1481554df62cb7dff2585fe73acfccbd') in 0.013146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.939759 seconds.
+  path: Assets/AnimationRetarget/Walk Backwards Retarget.anim
+  artifactKey: Guid(7340ce66f49ed44208151fc05b7aa1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Walk Backwards Retarget.anim using Guid(7340ce66f49ed44208151fc05b7aa1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae2c6057dfebdec4324caed32b91074') in 0.019505 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004272 seconds.
+Registered in 0.003610 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -528,21 +492,27 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 [Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.417 seconds
+- Completed reload, in  1.498 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 422.9 MB.
-System memory in use after: 423.1 MB.
+System memory in use before: 397.3 MB.
+System memory in use after: 397.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3822.
-Total: 4.356148 ms (FindLiveObjects: 0.510786 ms CreateObjectMapping: 0.359332 ms MarkObjects: 3.352756 ms  DeleteObjects: 0.132056 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3743.
+Total: 4.517415 ms (FindLiveObjects: 0.449917 ms CreateObjectMapping: 0.234630 ms MarkObjects: 3.670685 ms  DeleteObjects: 0.160943 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 62.475907 seconds.
+  path: Assets/AnimationRetarget/Walking Retarget.anim
+  artifactKey: Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationRetarget/Walking Retarget.anim using Guid(31a1e91151ff546c5903e77250bfae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9acc5c3061a31cd9d34d9df441cc03') in 0.015830 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001330 seconds.
+Registered in 0.004645 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -559,108 +529,36 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 [Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.404 seconds
+- Completed reload, in  1.628 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 423.3 MB.
-System memory in use after: 423.5 MB.
+System memory in use before: 398.1 MB.
+System memory in use after: 398.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 3.507136 ms (FindLiveObjects: 0.397923 ms CreateObjectMapping: 0.150122 ms MarkObjects: 2.830333 ms  DeleteObjects: 0.127113 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3745.
+Total: 3.999952 ms (FindLiveObjects: 0.476499 ms CreateObjectMapping: 0.292282 ms MarkObjects: 3.058676 ms  DeleteObjects: 0.170563 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002863 seconds.
+Registered in 0.003859 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.544 seconds
+- Completed reload, in  1.039 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 423.8 MB.
-System memory in use after: 424.0 MB.
+Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 383.9 MB.
+System memory in use after: 384.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3826.
-Total: 3.402832 ms (FindLiveObjects: 0.330193 ms CreateObjectMapping: 0.143632 ms MarkObjects: 2.800260 ms  DeleteObjects: 0.127416 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4039.
+Total: 2.544966 ms (FindLiveObjects: 0.321809 ms CreateObjectMapping: 0.158097 ms MarkObjects: 1.914535 ms  DeleteObjects: 0.149544 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001388 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 424.1 MB.
-System memory in use after: 424.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3828.
-Total: 3.279026 ms (FindLiveObjects: 0.325130 ms CreateObjectMapping: 0.137683 ms MarkObjects: 2.691325 ms  DeleteObjects: 0.119948 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001422 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs:569)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
-
-[Library/PackageCache/com.unity.probuilder@5.0.0-pre.7/Editor/EditorCore/EditorUtility.cs line 569]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.326 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 425.7 MB.
-System memory in use after: 425.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3830.
-Total: 3.862549 ms (FindLiveObjects: 0.330626 ms CreateObjectMapping: 0.176217 ms MarkObjects: 3.201719 ms  DeleteObjects: 0.151124 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
