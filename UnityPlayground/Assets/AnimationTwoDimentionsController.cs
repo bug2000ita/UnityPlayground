@@ -97,9 +97,11 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     {
         DetermineState();
 
+        Physics.gravity = new Vector3(0, -100.0F, 0);
 
         if (forwardPressed)
         {
+
             this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
 
         }
@@ -107,7 +109,8 @@ public class AnimationTwoDimentionsController : MonoBehaviour
         if (backwardPressed)
         {
             this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
-            this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, 1, 0), 180f);
+            //this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, 1, 0), 180f);
+
         }
 
 
