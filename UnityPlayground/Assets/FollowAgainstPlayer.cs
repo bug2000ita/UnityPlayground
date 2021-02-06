@@ -19,8 +19,9 @@ public class FollowAgainstPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 distance = player.transform.position - transform.position;
 
+        Vector3 distance = player.transform.position - transform.position;
         myRb.AddForce(distance.normalized * speed * Time.deltaTime);
+        
     }
 }

@@ -318,7 +318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a52da31b70c5943feaf1d43b4d0adf44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyPreFab: {fileID: 2992124798739090059, guid: 84d2e98bde67240b9b9a6998d5f22606,
+  enemyPreFab: {fileID: 2992124798739090059, guid: 84d2e98bde67240b9b9a6998d5f22606,
+    type: 3}
+  powerUpFab: {fileID: 1114475639704004369, guid: 2223d2611f4db43e182d258d253043be,
     type: 3}
 --- !u!1 &446166535
 GameObject:
@@ -349,7 +351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 280da1919b2744bf88ff46c0ac320ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSpeed: 100
+  RotationSpeed: 120
 --- !u!4 &446166537
 Transform:
   m_ObjectHideFlags: 0
@@ -746,7 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88954bf596ed24c09a7fc56bc5402196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedMovement: 500
+  SpeedMovement: 30
   IsPowerUpEnable: 0
   PowerUpStrenght: 50
   powerUpIndicator: {fileID: 868009251}

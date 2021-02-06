@@ -52,11 +52,11 @@ public class playerControllerBall : MonoBehaviour
 
         if (forwardPressed)
         {
-            playerRb.AddForce(focalPoint.transform.forward * SpeedMovement * Time.deltaTime);
+            playerRb.AddForce(focalPoint.transform.forward * SpeedMovement * Time.deltaTime,ForceMode.Impulse);
         }
         if(backwardPressed)
         {
-            playerRb.AddForce(-focalPoint.transform.forward * SpeedMovement * Time.deltaTime);
+            playerRb.AddForce(-focalPoint.transform.forward * SpeedMovement * Time.deltaTime, ForceMode.Impulse);
         }
 
         powerUpIndicator.SetActive(IsPowerUpEnable);
