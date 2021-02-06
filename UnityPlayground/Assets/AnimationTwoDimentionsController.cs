@@ -1,7 +1,10 @@
 using System;
+using System.Collections.Generic;
 using Cinemachine;
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class AnimationTwoDimentionsController : MonoBehaviour
 {
@@ -23,6 +26,7 @@ public class AnimationTwoDimentionsController : MonoBehaviour
 
     InputController inputController;
 
+    List<Vector3> Positions;
 
     bool forwardPressed;
     bool rightPressed;
@@ -30,13 +34,40 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     bool backwardPressed;
     bool runPressed;
 
+
+    bool collitionStop = false;
     public CinemachineVirtualCamera camera;
 
+    Transform lastTransform; 
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Stop"))
+        {
+            collitionStop = true;
+            Debug.Log($"ENTER Collition Stop {this.GetComponent<Rigidbody>().transform.position.x} " +
+                $"{this.GetComponent<Rigidbody>().transform.position.y} " +
+                $"{this.GetComponent<Rigidbody>().transform.position.z}");
+
+            this.GetComponent<Rigidbody>().MovePosition(lastTransform.position);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Stop"))
+        {
+            collitionStop = false;
+            Debug.Log("EXIT Collition Stop");
+        }
+    }
 
     //Awake
 
     private void Awake()
     {
+        Positions = new List<Vector3>();
         inputController = new InputController();
         inputController.CharacterInput.UpButton.performed += ctx => forwardPressed = ctx.ReadValueAsButton();
         inputController.CharacterInput.DownButton.performed += ctx => backwardPressed = ctx.ReadValueAsButton();
@@ -99,33 +130,35 @@ public class AnimationTwoDimentionsController : MonoBehaviour
 
         Physics.gravity = new Vector3(0, -100.0F, 0);
 
-        if (forwardPressed)
+        if(!collitionStop)
         {
+            lastTransform = this.GetComponent<Rigidbody>().transform;
+            Debug.Log($"LAST VALUE ****  {lastTransform.position.x} " +
+                $"{lastTransform.position.y} " +
+                $"{lastTransform.position.z}");
 
-            this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
-
-        }
-
-        if (backwardPressed)
-        {
-            this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
-            //this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, 1, 0), 180f);
-
+            Positions.Add(lastTransform.position);
         }
 
 
-        if (rightPressed)
-        {
-            camera.GetCinemachineComponent<CinemachineTransposer>().m_YawDamping = 0;
-            this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, 3f, 0));
-        }
 
-        if (leftPressed)
+        if ((forwardPressed || backwardPressed))
         {
-            camera.GetCinemachineComponent<CinemachineTransposer>().m_YawDamping = 0;
-            this.GetComponent<Rigidbody>().transform.Rotate(new Vector3(0, -3f, 0));
+
+            this.GetComponent<Rigidbody>().MovePosition(this.GetComponent<Rigidbody>().transform.position - new Vector3(1.5f * velocityX, 0, 1.5f * velocityZ));
+            
+            //this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
 
         }
+
+
+
+
+        if (rightPressed || leftPressed)
+        {
+            this.GetComponent<Rigidbody>().MovePosition(this.GetComponent<Rigidbody>().transform.position - new Vector3(1.5f * velocityX, 0, 1.5f * velocityZ));
+        }
+
 
         if (!rightPressed && !leftPressed)
         {
@@ -133,7 +166,16 @@ public class AnimationTwoDimentionsController : MonoBehaviour
 
         }
 
-        
+        if (collitionStop)
+        {
+            var lastIndex = Positions.Count;
+            if (lastIndex != 0)
+            {
+                this.GetComponent<Rigidbody>().MovePosition(Positions[lastIndex - 1]);
+                Positions.Clear();
+            }
+        }
+
 
 
 
@@ -226,11 +268,16 @@ public class AnimationTwoDimentionsController : MonoBehaviour
         return currentVelocity;
     }
 
+    private void FixedUpdate()
+    {
+        handleMovement();
+    }
+
     // Update is called once per frame
     void Update()
     {
 
-        handleMovement();
+        //handleMovement();
 
 
         // evaluate state of key
