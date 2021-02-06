@@ -360,6 +360,7 @@
 "Assets/playerControllerBall.cs"
 "Assets/RotateCamera.cs"
 "Assets/Scripts/PropellerSpin.cs"
+"Assets/SpawnManagerEnemy.cs"
 -langversion:8.0
 
 /deterministic

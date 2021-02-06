@@ -13,6 +13,11 @@ public class playerControllerBall : MonoBehaviour
     private bool forwardPressed;
     private bool backwardPressed;
 
+    public bool IsPowerUpEnable;
+    public float PowerUpStrenght = 50;
+
+    public GameObject powerUpIndicator;
+
     private void Awake()
     {
         inputController = new InputController();
@@ -36,11 +41,15 @@ public class playerControllerBall : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         focalPoint = GameObject.Find("FocalPoint");
+        powerUpIndicator.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        powerUpIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0);
+        powerUpIndicator.transform.Rotate(Vector3.up, Time.deltaTime * 180);
+
         if (forwardPressed)
         {
             playerRb.AddForce(focalPoint.transform.forward * SpeedMovement * Time.deltaTime);
@@ -49,6 +58,36 @@ public class playerControllerBall : MonoBehaviour
         {
             playerRb.AddForce(-focalPoint.transform.forward * SpeedMovement * Time.deltaTime);
         }
-        
+
+        powerUpIndicator.SetActive(IsPowerUpEnable);
+
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PowerUp"))
+        {
+            Destroy(other.gameObject);
+            IsPowerUpEnable = true;
+            StartCoroutine(PowerUpTime());
+        }
+    }
+
+    private IEnumerator PowerUpTime()
+    {
+        yield return new WaitForSeconds(5);
+        IsPowerUpEnable = false;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Enemy") && IsPowerUpEnable)
+        {
+            Rigidbody enemyRb = collision.gameObject.GetComponent<Rigidbody>();
+            Vector3 awayFromPlayer = collision.gameObject.transform.position - transform.position;
+            enemyRb.AddForce(PowerUpStrenght * awayFromPlayer, ForceMode.Impulse);
+            
+        }
+    }
+
 }
