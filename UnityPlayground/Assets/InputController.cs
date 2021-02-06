@@ -63,7 +63,7 @@ public class @InputController : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""ec84ee15-d72c-42e8-9203-242fab8887e7"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
@@ -74,7 +74,7 @@ public class @InputController : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""f086dcb5-504a-4e2f-8207-88671bb6b41b"",
-                    ""path"": ""<Keyboard>/w"",
+                    ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
@@ -96,7 +96,7 @@ public class @InputController : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""8501c104-d3db-4e98-832b-31a50e22d81f"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/rightArrow"",
                     ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
@@ -107,11 +107,95 @@ public class @InputController : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""52273347-e80a-4331-b1ad-bb19cd4dc5a4"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""LeftButton"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""CameraInput"",
+            ""id"": ""8e317db2-ca6a-46e0-bd42-5a1c026aee9f"",
+            ""actions"": [
+                {
+                    ""name"": ""TurnLeft"",
+                    ""type"": ""Button"",
+                    ""id"": ""9020d033-cf47-40e5-8401-0d5e7ba5b160"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press(behavior=2)""
+                },
+                {
+                    ""name"": ""TurnRight"",
+                    ""type"": ""Button"",
+                    ""id"": ""57d5e62c-d51e-4f18-8dc0-f90c9b48f85a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press(behavior=2)""
+                },
+                {
+                    ""name"": ""TurnUp"",
+                    ""type"": ""Button"",
+                    ""id"": ""e698d13b-75f8-45c0-b5fb-f60032f5bb1e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press(behavior=2)""
+                },
+                {
+                    ""name"": ""TurnDown"",
+                    ""type"": ""Button"",
+                    ""id"": ""1f8b6d84-4963-415f-bd7e-b5cbaa051983"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press(behavior=2)""
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""f0676873-7c18-44ab-8c44-b0a600081d98"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TurnLeft"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8abec1de-277e-4683-a327-7991476f3d9b"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TurnRight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5928fa8b-5e94-4d50-9e3d-23fd9ec70f12"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TurnUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3fa465f7-e064-4d38-8072-fc7478ade278"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TurnDown"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -127,6 +211,12 @@ public class @InputController : IInputActionCollection, IDisposable
         m_CharacterInput_RunButton = m_CharacterInput.FindAction("RunButton", throwIfNotFound: true);
         m_CharacterInput_RightButton = m_CharacterInput.FindAction("RightButton", throwIfNotFound: true);
         m_CharacterInput_LeftButton = m_CharacterInput.FindAction("LeftButton", throwIfNotFound: true);
+        // CameraInput
+        m_CameraInput = asset.FindActionMap("CameraInput", throwIfNotFound: true);
+        m_CameraInput_TurnLeft = m_CameraInput.FindAction("TurnLeft", throwIfNotFound: true);
+        m_CameraInput_TurnRight = m_CameraInput.FindAction("TurnRight", throwIfNotFound: true);
+        m_CameraInput_TurnUp = m_CameraInput.FindAction("TurnUp", throwIfNotFound: true);
+        m_CameraInput_TurnDown = m_CameraInput.FindAction("TurnDown", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -237,6 +327,63 @@ public class @InputController : IInputActionCollection, IDisposable
         }
     }
     public CharacterInputActions @CharacterInput => new CharacterInputActions(this);
+
+    // CameraInput
+    private readonly InputActionMap m_CameraInput;
+    private ICameraInputActions m_CameraInputActionsCallbackInterface;
+    private readonly InputAction m_CameraInput_TurnLeft;
+    private readonly InputAction m_CameraInput_TurnRight;
+    private readonly InputAction m_CameraInput_TurnUp;
+    private readonly InputAction m_CameraInput_TurnDown;
+    public struct CameraInputActions
+    {
+        private @InputController m_Wrapper;
+        public CameraInputActions(@InputController wrapper) { m_Wrapper = wrapper; }
+        public InputAction @TurnLeft => m_Wrapper.m_CameraInput_TurnLeft;
+        public InputAction @TurnRight => m_Wrapper.m_CameraInput_TurnRight;
+        public InputAction @TurnUp => m_Wrapper.m_CameraInput_TurnUp;
+        public InputAction @TurnDown => m_Wrapper.m_CameraInput_TurnDown;
+        public InputActionMap Get() { return m_Wrapper.m_CameraInput; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(CameraInputActions set) { return set.Get(); }
+        public void SetCallbacks(ICameraInputActions instance)
+        {
+            if (m_Wrapper.m_CameraInputActionsCallbackInterface != null)
+            {
+                @TurnLeft.started -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnLeft;
+                @TurnLeft.performed -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnLeft;
+                @TurnLeft.canceled -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnLeft;
+                @TurnRight.started -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnRight;
+                @TurnRight.performed -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnRight;
+                @TurnRight.canceled -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnRight;
+                @TurnUp.started -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnUp;
+                @TurnUp.performed -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnUp;
+                @TurnUp.canceled -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnUp;
+                @TurnDown.started -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnDown;
+                @TurnDown.performed -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnDown;
+                @TurnDown.canceled -= m_Wrapper.m_CameraInputActionsCallbackInterface.OnTurnDown;
+            }
+            m_Wrapper.m_CameraInputActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @TurnLeft.started += instance.OnTurnLeft;
+                @TurnLeft.performed += instance.OnTurnLeft;
+                @TurnLeft.canceled += instance.OnTurnLeft;
+                @TurnRight.started += instance.OnTurnRight;
+                @TurnRight.performed += instance.OnTurnRight;
+                @TurnRight.canceled += instance.OnTurnRight;
+                @TurnUp.started += instance.OnTurnUp;
+                @TurnUp.performed += instance.OnTurnUp;
+                @TurnUp.canceled += instance.OnTurnUp;
+                @TurnDown.started += instance.OnTurnDown;
+                @TurnDown.performed += instance.OnTurnDown;
+                @TurnDown.canceled += instance.OnTurnDown;
+            }
+        }
+    }
+    public CameraInputActions @CameraInput => new CameraInputActions(this);
     public interface ICharacterInputActions
     {
         void OnDownButton(InputAction.CallbackContext context);
@@ -244,5 +391,12 @@ public class @InputController : IInputActionCollection, IDisposable
         void OnRunButton(InputAction.CallbackContext context);
         void OnRightButton(InputAction.CallbackContext context);
         void OnLeftButton(InputAction.CallbackContext context);
+    }
+    public interface ICameraInputActions
+    {
+        void OnTurnLeft(InputAction.CallbackContext context);
+        void OnTurnRight(InputAction.CallbackContext context);
+        void OnTurnUp(InputAction.CallbackContext context);
+        void OnTurnDown(InputAction.CallbackContext context);
     }
 }

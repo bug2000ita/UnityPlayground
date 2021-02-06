@@ -50,7 +50,7 @@
                 {
                     "name": "",
                     "id": "ec84ee15-d72c-42e8-9203-242fab8887e7",
-                    "path": "<Keyboard>/s",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
@@ -61,7 +61,7 @@
                 {
                     "name": "",
                     "id": "f086dcb5-504a-4e2f-8207-88671bb6b41b",
-                    "path": "<Keyboard>/w",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
@@ -83,7 +83,7 @@
                 {
                     "name": "",
                     "id": "8501c104-d3db-4e98-832b-31a50e22d81f",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
@@ -94,11 +94,95 @@
                 {
                     "name": "",
                     "id": "52273347-e80a-4331-b1ad-bb19cd4dc5a4",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
                     "action": "LeftButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CameraInput",
+            "id": "8e317db2-ca6a-46e0-bd42-5a1c026aee9f",
+            "actions": [
+                {
+                    "name": "TurnLeft",
+                    "type": "Button",
+                    "id": "9020d033-cf47-40e5-8401-0d5e7ba5b160",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                },
+                {
+                    "name": "TurnRight",
+                    "type": "Button",
+                    "id": "57d5e62c-d51e-4f18-8dc0-f90c9b48f85a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                },
+                {
+                    "name": "TurnUp",
+                    "type": "Button",
+                    "id": "e698d13b-75f8-45c0-b5fb-f60032f5bb1e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                },
+                {
+                    "name": "TurnDown",
+                    "type": "Button",
+                    "id": "1f8b6d84-4963-415f-bd7e-b5cbaa051983",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f0676873-7c18-44ab-8c44-b0a600081d98",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8abec1de-277e-4683-a327-7991476f3d9b",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5928fa8b-5e94-4d50-9e3d-23fd9ec70f12",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fa465f7-e064-4d38-8072-fc7478ade278",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnDown",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

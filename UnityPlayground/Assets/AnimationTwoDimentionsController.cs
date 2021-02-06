@@ -12,6 +12,8 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     float velocityZ = 0.0f;
     float velocityX = 0.0f;
 
+    public CharacterController characterController;
+
     public float acceleration = 2.0f;
     public float deceleration = 2.0f;
 
@@ -34,11 +36,18 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     bool backwardPressed;
     bool runPressed;
 
+    bool cameraUpPressed;
+    bool cameraDownPressed;
+    bool cameraLeftPressed;
+    bool cameraRightPressed;
+
 
     bool collitionStop = false;
     public CinemachineVirtualCamera camera;
 
-    Transform lastTransform; 
+    Transform lastTransform;
+
+    private float verticalSpeed = 0;
 
 
     private void OnCollisionEnter(Collision collision)
@@ -74,6 +83,11 @@ public class AnimationTwoDimentionsController : MonoBehaviour
         inputController.CharacterInput.RightButton.performed += ctx => rightPressed = ctx.ReadValueAsButton();
         inputController.CharacterInput.LeftButton.performed += ctx => leftPressed = ctx.ReadValueAsButton();
         inputController.CharacterInput.RunButton.performed += ctx => runPressed = ctx.ReadValueAsButton();
+
+        inputController.CameraInput.TurnDown.performed += ctx => cameraDownPressed = ctx.ReadValueAsButton();
+        inputController.CameraInput.TurnUp.performed += ctx => cameraUpPressed = ctx.ReadValueAsButton();
+        inputController.CameraInput.TurnRight.performed += ctx => cameraRightPressed = ctx.ReadValueAsButton();
+        inputController.CameraInput.TurnLeft.performed += ctx => cameraLeftPressed = ctx.ReadValueAsButton();
     }
 
     private void OnEnable()
@@ -93,10 +107,6 @@ public class AnimationTwoDimentionsController : MonoBehaviour
 
         velocityXHash = Animator.StringToHash("Velocity X");
         velocityZHash = Animator.StringToHash("Velocity Z");
-
-
-        
-
 
     }
 
@@ -137,27 +147,35 @@ public class AnimationTwoDimentionsController : MonoBehaviour
                 $"{lastTransform.position.y} " +
                 $"{lastTransform.position.z}");
 
-            Positions.Add(lastTransform.position);
+            Positions.Add(lastTransform.position); 
         }
-
-
-
-        if ((forwardPressed || backwardPressed))
+        
+        if(cameraLeftPressed || cameraRightPressed || cameraUpPressed || cameraDownPressed)
         {
-
-            this.GetComponent<Rigidbody>().MovePosition(this.GetComponent<Rigidbody>().transform.position - new Vector3(1.5f * velocityX, 0, 1.5f * velocityZ));
-            
-            //this.GetComponent<Rigidbody>().transform.Translate(new Vector3(0, 0, 1.5f * velocityZ));
-
+            camera.transform.Translate(Vector3.right * Time.deltaTime);
+            Debug.Log("Move Camera");
         }
 
-
-
-
-        if (rightPressed || leftPressed)
+        if (forwardPressed || backwardPressed || rightPressed || leftPressed)
         {
-            this.GetComponent<Rigidbody>().MovePosition(this.GetComponent<Rigidbody>().transform.position - new Vector3(1.5f * velocityX, 0, 1.5f * velocityZ));
+            float gravity = 9.87f;
+
+            if (characterController.isGrounded)
+                verticalSpeed = 0;
+            else
+                verticalSpeed -= gravity * Time.deltaTime;
+
+            this.GetComponent<Rigidbody>().MovePosition(this.GetComponent<Rigidbody>().transform.position + new Vector3(1.5f * velocityX, 0, 1.5f * velocityZ));
+
+            //Vector3 gravityMove = new Vector3(0, verticalSpeed, 0);
+            //Vector3 move = transform.forward * velocityZ + transform.right * velocityX; 
+            //characterController.Move(6*Time.deltaTime * move + gravityMove * Time.deltaTime);
+
+
+
         }
+
+
 
 
         if (!rightPressed && !leftPressed)
@@ -175,10 +193,6 @@ public class AnimationTwoDimentionsController : MonoBehaviour
                 Positions.Clear();
             }
         }
-
-
-
-
 
     }
 
