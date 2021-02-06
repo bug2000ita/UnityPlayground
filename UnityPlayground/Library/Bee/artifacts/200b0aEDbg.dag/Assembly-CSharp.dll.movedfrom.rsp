@@ -1,3 +1,4 @@
+Library/Bee/artifacts/movedfrom/Unity.Analytics.DataPrivacy.ref.dll_8776227257931606681.movedfrom
 Library/Bee/artifacts/movedfrom/Unity.InputSystem.ref.dll_16704089953125245532.movedfrom
 Library/Bee/artifacts/movedfrom/Unity.Postprocessing.Editor.ref.dll_16292977180819823787.movedfrom
 Library/Bee/artifacts/movedfrom/Unity.Postprocessing.Runtime.ref.dll_2936050798656717136.movedfrom
@@ -104,3 +105,6 @@ Library/Bee/artifacts/movedfrom/UnityEngine.VirtualTexturingModule.dll_389266150
 Library/Bee/artifacts/movedfrom/UnityEngine.VRModule.dll_10273821104134434958.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEngine.WindModule.dll_11696440008096489322.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEngine.XRModule.dll_13930395475855441388.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.Analytics.Editor.dll_196717412338537340.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.Analytics.StandardEvents.dll_2110257626573410229.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.Analytics.Tracker.dll_16421560403933127285.movedfrom

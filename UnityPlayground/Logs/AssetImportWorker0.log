@@ -1,0 +1,2397 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/bug2000/Dev/UnityPlayground/UnityPlayground
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63984
+Successfully changed project path to: /Users/bug2000/Dev/UnityPlayground/UnityPlayground
+/Users/bug2000/Dev/UnityPlayground/UnityPlayground
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 225.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0b1 (9f7c487dd2da)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-02-06 11:50:20.985 Unity[43214:3606828] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
+2021-02-06 11:50:20.985 Unity[43214:3606828] Metal devices available: 2
+2021-02-06 11:50:20.985 Unity[43214:3606828] 0: NVIDIA GeForce GT 750M (high power)
+2021-02-06 11:50:20.986 Unity[43214:3606828] 1: Intel Iris Pro Graphics (low power)
+2021-02-06 11:50:20.986 Unity[43214:3606828] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56214
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0b1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000972 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.463 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001227 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe663060000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe6642a1000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe664406000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  2.001 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3538 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 383.3 MB.
+System memory in use after: 383.5 MB.
+
+Unloading 128 unused Assets to reduce memory usage. Loaded Objects now: 4003.
+Total: 3.928723 ms (FindLiveObjects: 0.315598 ms CreateObjectMapping: 0.178606 ms MarkObjects: 3.237444 ms  DeleteObjects: 0.195967 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.collab-proxy/package.json
+  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfd695108523868e79b0e798d5ca060') in 0.366972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.033208 seconds.
+  path: Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks1.vfx
+  artifactKey: Guid(e5831baf0d2f8e04887d1603d6ebd058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks1.vfx using Guid(e5831baf0d2f8e04887d1603d6ebd058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5290f5c0070c44f769d7079704b3b2') in 0.871182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027924 seconds.
+  path: 
+  artifactKey: Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000065 seconds  code(3) message(Unknown asset with GUID '2a09470ada0c47849ad79d26363f8e4a')
+  ERROR: Unknown asset with GUID '2a09470ada0c47849ad79d26363f8e4a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.022671 seconds.
+  path: 
+  artifactKey: Guid(5bdf4d3d5d3951d4c8a861101a144e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5bdf4d3d5d3951d4c8a861101a144e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000065 seconds  code(3) message(Unknown asset with GUID '5bdf4d3d5d3951d4c8a861101a144e82')
+  ERROR: Unknown asset with GUID '5bdf4d3d5d3951d4c8a861101a144e82'
+========================================================================
+Received Import Request.
+  Time since last request: 0.031882 seconds.
+  path: 
+  artifactKey: Guid(41680dad0f0243748b4e228f49a2e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(41680dad0f0243748b4e228f49a2e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000073 seconds  code(3) message(Unknown asset with GUID '41680dad0f0243748b4e228f49a2e3c4')
+  ERROR: Unknown asset with GUID '41680dad0f0243748b4e228f49a2e3c4'
+========================================================================
+Received Import Request.
+  Time since last request: 0.022625 seconds.
+  path: 
+  artifactKey: Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000069 seconds  code(3) message(Unknown asset with GUID '6b38ffdcc39b96042a822bb3f490eefd')
+  ERROR: Unknown asset with GUID '6b38ffdcc39b96042a822bb3f490eefd'
+========================================================================
+Received Import Request.
+  Time since last request: 0.025880 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000075 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023851 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026149 seconds.
+  path: 
+  artifactKey: Guid(86cb957541c7c8542a6306ffb82e6833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(86cb957541c7c8542a6306ffb82e6833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '86cb957541c7c8542a6306ffb82e6833')
+  ERROR: Unknown asset with GUID '86cb957541c7c8542a6306ffb82e6833'
+========================================================================
+Received Import Request.
+  Time since last request: 0.024514 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000081 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.024284 seconds.
+  path: 
+  artifactKey: Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000065 seconds  code(3) message(Unknown asset with GUID '86507321c175292409cc422c5e33d711')
+  ERROR: Unknown asset with GUID '86507321c175292409cc422c5e33d711'
+========================================================================
+Received Import Request.
+  Time since last request: 0.025245 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000057 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023465 seconds.
+  path: Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks2.vfx
+  artifactKey: Guid(8a07c7c2e5d76e94f9079f07db71813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks2.vfx using Guid(8a07c7c2e5d76e94f9079f07db71813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb6c5deea05a007a6e646e08aea77b0') in 0.013594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024342 seconds.
+  path: 
+  artifactKey: Guid(5b0eedd9207590f40b02a2b89172c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5b0eedd9207590f40b02a2b89172c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000074 seconds  code(3) message(Unknown asset with GUID '5b0eedd9207590f40b02a2b89172c391')
+  ERROR: Unknown asset with GUID '5b0eedd9207590f40b02a2b89172c391'
+========================================================================
+Received Import Request.
+  Time since last request: 0.025407 seconds.
+  path: Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks3.vfx
+  artifactKey: Guid(d1653edd89d8ea74cafc5f1f74db55ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks3.vfx using Guid(d1653edd89d8ea74cafc5f1f74db55ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f55461fe91c9d1b481205f81bdd1191') in 0.013049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024401 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026356 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000054 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 17.574391 seconds.
+  path: Packages/com.unity.collab-proxy/package.json
+  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfd695108523868e79b0e798d5ca060') in 0.004987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.842269 seconds.
+  path: 
+  artifactKey: Guid(510d1d319d2754ea4a47c6dd8c421ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(510d1d319d2754ea4a47c6dd8c421ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000097 seconds  code(3) message(Unknown asset with GUID '510d1d319d2754ea4a47c6dd8c421ea0')
+  ERROR: Unknown asset with GUID '510d1d319d2754ea4a47c6dd8c421ea0'
+========================================================================
+Received Import Request.
+  Time since last request: 3.508621 seconds.
+  path: Assets/Cool Visual Effects - Part 1/Settings/Example Scene.asset
+  artifactKey: Guid(a03b2dcdb3a880847af03dc44151c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cool Visual Effects - Part 1/Settings/Example Scene.asset using Guid(a03b2dcdb3a880847af03dc44151c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f908776ca4ea64851d00274e6ea3f03') in 0.409459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.139520 seconds.
+  path: 
+  artifactKey: Guid(a4b96ad7a65484fd4a83cb97540eee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a4b96ad7a65484fd4a83cb97540eee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000061 seconds  code(3) message(Unknown asset with GUID 'a4b96ad7a65484fd4a83cb97540eee50')
+  ERROR: Unknown asset with GUID 'a4b96ad7a65484fd4a83cb97540eee50'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d955000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dadd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 392.2 MB.
+System memory in use after: 392.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 3.938422 ms (FindLiveObjects: 0.414771 ms CreateObjectMapping: 0.146281 ms MarkObjects: 3.256030 ms  DeleteObjects: 0.120147 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004547 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 392.8 MB.
+System memory in use after: 393.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4007.
+Total: 4.141927 ms (FindLiveObjects: 0.425230 ms CreateObjectMapping: 0.297429 ms MarkObjects: 3.309069 ms  DeleteObjects: 0.107400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.112334 seconds.
+  path: Assets/materials/New Material.mat
+  artifactKey: Guid(9bf5ebf1404b5498d8258ac3b0853e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/New Material.mat using Guid(9bf5ebf1404b5498d8258ac3b0853e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.312342 seconds  code(4) message(Build asset version error: assets/materials/new material.mat in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z')
+  ERROR: Build asset version error: assets/materials/new material.mat in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z'
+========================================================================
+Received Import Request.
+  Time since last request: 11.374241 seconds.
+  path: Assets/Course Library
+  artifactKey: Guid(b39a922965fd24e079036ff7a7c30634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library using Guid(b39a922965fd24e079036ff7a7c30634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000437 seconds  code(4) message(Build asset version error: assets/course library.meta in SourceAssetDB has modification time of '2021-02-06T10:35:57Z' while content on disk has modification time of '2021-02-06T10:41:18Z')
+  ERROR: Build asset version error: assets/course library.meta in SourceAssetDB has modification time of '2021-02-06T10:35:57Z' while content on disk has modification time of '2021-02-06T10:41:18Z'
+========================================================================
+Received Import Request.
+  Time since last request: 5.722251 seconds.
+  path: 
+  artifactKey: Guid(da0d1bf53c5ea45fcacc3c0a7a1ba542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(da0d1bf53c5ea45fcacc3c0a7a1ba542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000086 seconds  code(3) message(Unknown asset with GUID 'da0d1bf53c5ea45fcacc3c0a7a1ba542')
+  ERROR: Unknown asset with GUID 'da0d1bf53c5ea45fcacc3c0a7a1ba542'
+========================================================================
+Received Import Request.
+  Time since last request: 0.322394 seconds.
+  path: 
+  artifactKey: Guid(42b224efc5a8c4863a87e224a72bb1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42b224efc5a8c4863a87e224a72bb1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000061 seconds  code(3) message(Unknown asset with GUID '42b224efc5a8c4863a87e224a72bb1ea')
+  ERROR: Unknown asset with GUID '42b224efc5a8c4863a87e224a72bb1ea'
+========================================================================
+Received Import Request.
+  Time since last request: 6.742317 seconds.
+  path: 
+  artifactKey: Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000058 seconds  code(3) message(Unknown asset with GUID '2a09470ada0c47849ad79d26363f8e4a')
+  ERROR: Unknown asset with GUID '2a09470ada0c47849ad79d26363f8e4a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.021423 seconds.
+  path: 
+  artifactKey: Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000064 seconds  code(3) message(Unknown asset with GUID '6b38ffdcc39b96042a822bb3f490eefd')
+  ERROR: Unknown asset with GUID '6b38ffdcc39b96042a822bb3f490eefd'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020304 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.019689 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000095 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020957 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000061 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.021406 seconds.
+  path: 
+  artifactKey: Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000058 seconds  code(3) message(Unknown asset with GUID '86507321c175292409cc422c5e33d711')
+  ERROR: Unknown asset with GUID '86507321c175292409cc422c5e33d711'
+========================================================================
+Received Import Request.
+  Time since last request: 0.019259 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023477 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000056 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020351 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 4.311597 seconds.
+  path: 
+  artifactKey: Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000058 seconds  code(3) message(Unknown asset with GUID '2a09470ada0c47849ad79d26363f8e4a')
+  ERROR: Unknown asset with GUID '2a09470ada0c47849ad79d26363f8e4a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.019714 seconds.
+  path: 
+  artifactKey: Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000057 seconds  code(3) message(Unknown asset with GUID '6b38ffdcc39b96042a822bb3f490eefd')
+  ERROR: Unknown asset with GUID '6b38ffdcc39b96042a822bb3f490eefd'
+========================================================================
+Received Import Request.
+  Time since last request: 0.021237 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.021137 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000036 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.019294 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.021051 seconds.
+  path: 
+  artifactKey: Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000052 seconds  code(3) message(Unknown asset with GUID '86507321c175292409cc422c5e33d711')
+  ERROR: Unknown asset with GUID '86507321c175292409cc422c5e33d711'
+========================================================================
+Received Import Request.
+  Time since last request: 0.017925 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000063 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.018486 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000074 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.018675 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 22.554042 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000079 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020480 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000071 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020071 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.019150 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000034 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.018654 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020016 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000060 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 8.017805 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000083 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020521 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020173 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020406 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.022961 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000132 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.021335 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 176.776875 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000083 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023774 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000057 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020993 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000051 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.020972 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000080 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.022976 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000063 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.021414 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000039 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001407 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 401.7 MB.
+System memory in use after: 401.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4049.
+Total: 3.598637 ms (FindLiveObjects: 0.292216 ms CreateObjectMapping: 0.146770 ms MarkObjects: 3.056378 ms  DeleteObjects: 0.101889 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.367238 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000086 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023997 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000099 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023689 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000052 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.022725 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.025089 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023746 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 13.518204 seconds.
+  path: Assets/InputController.inputactions
+  artifactKey: Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputController.inputactions using Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.193087 seconds  code(4) message(Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z')
+  ERROR: Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.024789 seconds.
+  path: 
+  artifactKey: Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000101 seconds  code(3) message(Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d')
+  ERROR: Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d'
+========================================================================
+Received Import Request.
+  Time since last request: 0.460602 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(05a8eae08d3c44e6bbfe1492576736e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(05a8eae08d3c44e6bbfe1492576736e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.399688 seconds  code(4) message(Build asset version error: assets/tree.prefab in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z')
+  ERROR: Build asset version error: assets/tree.prefab in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z'
+========================================================================
+Received Import Request.
+  Time since last request: 7.609975 seconds.
+  path: 
+  artifactKey: Guid(280da1919b2744bf88ff46c0ac320ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(280da1919b2744bf88ff46c0ac320ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000059 seconds  code(3) message(Unknown asset with GUID '280da1919b2744bf88ff46c0ac320ef7')
+  ERROR: Unknown asset with GUID '280da1919b2744bf88ff46c0ac320ef7'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002345 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.577 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 411.0 MB.
+System memory in use after: 411.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4055.
+Total: 5.184446 ms (FindLiveObjects: 0.570389 ms CreateObjectMapping: 0.424610 ms MarkObjects: 4.040151 ms  DeleteObjects: 0.148120 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002801 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e1b8000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d910000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da98000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 411.6 MB.
+System memory in use after: 411.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4057.
+Total: 5.204749 ms (FindLiveObjects: 0.556681 ms CreateObjectMapping: 0.174644 ms MarkObjects: 4.344044 ms  DeleteObjects: 0.127795 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001597 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e018000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d90b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da93000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.627 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 412.2 MB.
+System memory in use after: 412.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4059.
+Total: 3.898807 ms (FindLiveObjects: 0.423333 ms CreateObjectMapping: 0.155431 ms MarkObjects: 3.211795 ms  DeleteObjects: 0.107193 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e1ad000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d90b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da93000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.647 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 412.8 MB.
+System memory in use after: 413.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4061.
+Total: 4.124656 ms (FindLiveObjects: 0.464437 ms CreateObjectMapping: 0.166269 ms MarkObjects: 3.371384 ms  DeleteObjects: 0.120751 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002118 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d97a000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64db02000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.639 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 413.3 MB.
+System memory in use after: 413.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4063.
+Total: 3.677521 ms (FindLiveObjects: 0.364680 ms CreateObjectMapping: 0.149822 ms MarkObjects: 3.060532 ms  DeleteObjects: 0.101528 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002396 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e1dc000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d915000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da94000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.607 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 413.9 MB.
+System memory in use after: 414.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4065.
+Total: 4.482780 ms (FindLiveObjects: 0.454614 ms CreateObjectMapping: 0.176384 ms MarkObjects: 3.726780 ms  DeleteObjects: 0.122165 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002289 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e06b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d90b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da93000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 414.5 MB.
+System memory in use after: 414.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4067.
+Total: 4.832175 ms (FindLiveObjects: 0.418752 ms CreateObjectMapping: 0.230471 ms MarkObjects: 4.033142 ms  DeleteObjects: 0.146918 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001395 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e33e000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d92b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dab3000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 415.0 MB.
+System memory in use after: 415.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4069.
+Total: 3.773286 ms (FindLiveObjects: 0.345409 ms CreateObjectMapping: 0.218793 ms MarkObjects: 3.105304 ms  DeleteObjects: 0.102818 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001379 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e02d000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d92b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da99000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 415.7 MB.
+System memory in use after: 415.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4071.
+Total: 3.535235 ms (FindLiveObjects: 0.330714 ms CreateObjectMapping: 0.145693 ms MarkObjects: 2.950019 ms  DeleteObjects: 0.107909 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001475 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e1af000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d90b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da93000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 416.3 MB.
+System memory in use after: 416.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4073.
+Total: 3.843018 ms (FindLiveObjects: 0.417713 ms CreateObjectMapping: 0.149384 ms MarkObjects: 3.164178 ms  DeleteObjects: 0.110427 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d97f000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafe000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 416.8 MB.
+System memory in use after: 417.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4075.
+Total: 3.915516 ms (FindLiveObjects: 0.332174 ms CreateObjectMapping: 0.151071 ms MarkObjects: 3.299896 ms  DeleteObjects: 0.131141 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d97f000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafe000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.091 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 417.4 MB.
+System memory in use after: 417.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4077.
+Total: 4.123757 ms (FindLiveObjects: 0.324361 ms CreateObjectMapping: 0.148986 ms MarkObjects: 3.436946 ms  DeleteObjects: 0.212135 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002437 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 418.0 MB.
+System memory in use after: 418.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4079.
+Total: 3.825328 ms (FindLiveObjects: 0.335667 ms CreateObjectMapping: 0.162213 ms MarkObjects: 3.207158 ms  DeleteObjects: 0.118146 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002004 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e0dd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d910000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da98000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 418.6 MB.
+System memory in use after: 418.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4081.
+Total: 3.529216 ms (FindLiveObjects: 0.308633 ms CreateObjectMapping: 0.144578 ms MarkObjects: 2.965422 ms  DeleteObjects: 0.109610 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001832 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e070000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d90b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64da93000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 419.1 MB.
+System memory in use after: 419.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4083.
+Total: 3.750042 ms (FindLiveObjects: 0.376904 ms CreateObjectMapping: 0.159628 ms MarkObjects: 3.089806 ms  DeleteObjects: 0.122411 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001537 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64e34e000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d92b000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dab3000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 419.7 MB.
+System memory in use after: 419.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4085.
+Total: 3.863924 ms (FindLiveObjects: 0.344888 ms CreateObjectMapping: 0.149713 ms MarkObjects: 3.253276 ms  DeleteObjects: 0.114822 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001735 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d989000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64db08000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 420.3 MB.
+System memory in use after: 420.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4087.
+Total: 4.162686 ms (FindLiveObjects: 0.334783 ms CreateObjectMapping: 0.244918 ms MarkObjects: 3.469279 ms  DeleteObjects: 0.112616 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003510 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d989000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64db08000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 420.9 MB.
+System memory in use after: 421.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4089.
+Total: 4.573367 ms (FindLiveObjects: 0.336168 ms CreateObjectMapping: 0.173415 ms MarkObjects: 3.937169 ms  DeleteObjects: 0.123645 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 421.4 MB.
+System memory in use after: 421.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4091.
+Total: 3.641128 ms (FindLiveObjects: 0.258117 ms CreateObjectMapping: 0.148173 ms MarkObjects: 3.127037 ms  DeleteObjects: 0.105851 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002587 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 422.0 MB.
+System memory in use after: 422.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4093.
+Total: 3.576684 ms (FindLiveObjects: 0.306726 ms CreateObjectMapping: 0.144678 ms MarkObjects: 3.006457 ms  DeleteObjects: 0.117739 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001414 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.616 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 422.6 MB.
+System memory in use after: 422.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4095.
+Total: 4.000602 ms (FindLiveObjects: 0.376152 ms CreateObjectMapping: 0.169000 ms MarkObjects: 3.333493 ms  DeleteObjects: 0.120216 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001409 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 423.2 MB.
+System memory in use after: 423.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4097.
+Total: 4.195152 ms (FindLiveObjects: 0.448177 ms CreateObjectMapping: 0.151648 ms MarkObjects: 3.479628 ms  DeleteObjects: 0.114565 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001803 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.656 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 423.8 MB.
+System memory in use after: 424.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4099.
+Total: 3.766042 ms (FindLiveObjects: 0.361144 ms CreateObjectMapping: 0.153934 ms MarkObjects: 3.106265 ms  DeleteObjects: 0.143327 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 424.4 MB.
+System memory in use after: 424.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4101.
+Total: 5.306318 ms (FindLiveObjects: 0.424978 ms CreateObjectMapping: 0.184349 ms MarkObjects: 4.527323 ms  DeleteObjects: 0.162742 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001929 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 424.9 MB.
+System memory in use after: 425.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4103.
+Total: 3.698636 ms (FindLiveObjects: 0.464925 ms CreateObjectMapping: 0.149633 ms MarkObjects: 2.968604 ms  DeleteObjects: 0.113403 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006806 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 425.5 MB.
+System memory in use after: 425.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4105.
+Total: 5.787919 ms (FindLiveObjects: 0.595724 ms CreateObjectMapping: 0.307761 ms MarkObjects: 4.741409 ms  DeleteObjects: 0.140900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2132.264925 seconds.
+  path: Assets/InputController.inputactions
+  artifactKey: Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputController.inputactions using Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018921 seconds  code(4) message(Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z')
+  ERROR: Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023185 seconds.
+  path: 
+  artifactKey: Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000061 seconds  code(3) message(Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d')
+  ERROR: Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d'
+========================================================================
+Received Import Request.
+  Time since last request: 2.012629 seconds.
+  path: 
+  artifactKey: Guid(82b676a06ee9a451198ddb43c8224014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(82b676a06ee9a451198ddb43c8224014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000057 seconds  code(3) message(Unknown asset with GUID '82b676a06ee9a451198ddb43c8224014')
+  ERROR: Unknown asset with GUID '82b676a06ee9a451198ddb43c8224014'
+========================================================================
+Received Import Request.
+  Time since last request: 7.993510 seconds.
+  path: Assets/InputController.inputactions
+  artifactKey: Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputController.inputactions using Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002755 seconds  code(4) message(Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z')
+  ERROR: Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.028051 seconds.
+  path: 
+  artifactKey: Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000062 seconds  code(3) message(Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d')
+  ERROR: Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d'
+========================================================================
+Received Import Request.
+  Time since last request: 124.966134 seconds.
+  path: Assets/Course Library/Textures
+  artifactKey: Guid(9ddc1f5ec285042ee8d93f649d86e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures using Guid(9ddc1f5ec285042ee8d93f649d86e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000263 seconds  code(4) message(Build asset version error: assets/course library/textures.meta in SourceAssetDB has modification time of '2021-02-06T10:35:57Z' while content on disk has modification time of '2021-02-06T10:41:18Z')
+  ERROR: Build asset version error: assets/course library/textures.meta in SourceAssetDB has modification time of '2021-02-06T10:35:57Z' while content on disk has modification time of '2021-02-06T10:41:18Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.391488 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000075 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026082 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000051 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.024400 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000099 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.025306 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000061 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026586 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000051 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.028297 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000062 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 3.699116 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000072 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.027576 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000081 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.024191 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000062 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.022513 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000057 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023250 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.023330 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000043 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 12.851445 seconds.
+  path: 
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000088 seconds  code(3) message(Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a')
+  ERROR: Unknown asset with GUID 'c7c5239ae4b2ace4d8774918a50a940a'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026292 seconds.
+  path: 
+  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000089 seconds  code(3) message(Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986')
+  ERROR: Unknown asset with GUID '1d12fa396a3563b41b9ae11b0fb0b986'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026639 seconds.
+  path: 
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6')
+  ERROR: Unknown asset with GUID 'bbc54c0e722a346408cd09eef6dc0cd6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.025954 seconds.
+  path: 
+  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000065 seconds  code(3) message(Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e')
+  ERROR: Unknown asset with GUID '7789f4efbb0f45c4780925243375a18e'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026729 seconds.
+  path: 
+  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000079 seconds  code(3) message(Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077')
+  ERROR: Unknown asset with GUID '8634f8cf5ba74134c972fb2d36355077'
+========================================================================
+Received Import Request.
+  Time since last request: 0.026206 seconds.
+  path: 
+  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000060 seconds  code(3) message(Unknown asset with GUID '1432e62c10501d147a873c128326f711')
+  ERROR: Unknown asset with GUID '1432e62c10501d147a873c128326f711'
+========================================================================
+Received Import Request.
+  Time since last request: 47.433401 seconds.
+  path: Assets/InputController.inputactions
+  artifactKey: Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputController.inputactions using Guid(1d0240a19eede473e84cb2a37ea5933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003279 seconds  code(4) message(Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z')
+  ERROR: Build asset version error: assets/inputcontroller.inputactions in SourceAssetDB has modification time of '2021-02-06T10:34:54Z' while content on disk has modification time of '2021-02-02T22:18:12Z'
+========================================================================
+Received Import Request.
+  Time since last request: 8.109654 seconds.
+  path: 
+  artifactKey: Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2b1942d7779b6411eb13acc86221f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000062 seconds  code(3) message(Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d')
+  ERROR: Unknown asset with GUID '2b1942d7779b6411eb13acc86221f35d'
+========================================================================
+Received Import Request.
+  Time since last request: 6.016810 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Import Request.
+  Time since last request: 26.478044 seconds.
+  path: 
+  artifactKey: Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000056 seconds  code(3) message(Unknown asset with GUID 'cd97a4f0bfba00a46a4a29156f2a23bd')
+  ERROR: Unknown asset with GUID 'cd97a4f0bfba00a46a4a29156f2a23bd'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 426.1 MB.
+System memory in use after: 426.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4107.
+Total: 3.499173 ms (FindLiveObjects: 0.311767 ms CreateObjectMapping: 0.146720 ms MarkObjects: 2.933820 ms  DeleteObjects: 0.105955 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.606829 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000085 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001617 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 426.7 MB.
+System memory in use after: 426.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4109.
+Total: 4.126136 ms (FindLiveObjects: 0.461182 ms CreateObjectMapping: 0.159446 ms MarkObjects: 3.390029 ms  DeleteObjects: 0.113778 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.859600 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000074 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Import Request.
+  Time since last request: 6.875780 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000070 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 427.3 MB.
+System memory in use after: 427.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4111.
+Total: 4.442805 ms (FindLiveObjects: 0.427598 ms CreateObjectMapping: 0.182944 ms MarkObjects: 3.711247 ms  DeleteObjects: 0.119502 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.864543 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000064 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Import Request.
+  Time since last request: 90.493461 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000059 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002428 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 427.8 MB.
+System memory in use after: 428.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4113.
+Total: 3.728488 ms (FindLiveObjects: 0.379057 ms CreateObjectMapping: 0.163552 ms MarkObjects: 3.067980 ms  DeleteObjects: 0.116371 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.333923 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000068 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Import Request.
+  Time since last request: 249.577013 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000062 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.865 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 428.5 MB.
+System memory in use after: 428.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4115.
+Total: 4.031822 ms (FindLiveObjects: 0.475541 ms CreateObjectMapping: 0.151378 ms MarkObjects: 3.301100 ms  DeleteObjects: 0.102702 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001978 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.576 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 429.2 MB.
+System memory in use after: 429.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4117.
+Total: 4.557820 ms (FindLiveObjects: 0.518325 ms CreateObjectMapping: 0.398761 ms MarkObjects: 3.540365 ms  DeleteObjects: 0.099110 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.919682 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 430.7 MB.
+System memory in use after: 430.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4119.
+Total: 3.965593 ms (FindLiveObjects: 0.413274 ms CreateObjectMapping: 0.156950 ms MarkObjects: 3.305893 ms  DeleteObjects: 0.088349 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001827 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 430.3 MB.
+System memory in use after: 430.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4121.
+Total: 3.627760 ms (FindLiveObjects: 0.365176 ms CreateObjectMapping: 0.171751 ms MarkObjects: 2.997658 ms  DeleteObjects: 0.092066 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.691550 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001722 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 430.9 MB.
+System memory in use after: 431.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4123.
+Total: 4.076621 ms (FindLiveObjects: 0.460474 ms CreateObjectMapping: 0.162781 ms MarkObjects: 3.361372 ms  DeleteObjects: 0.090369 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.729883 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000058 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Import Request.
+  Time since last request: 2.246439 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000098 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Import Request.
+  Time since last request: 169.844261 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000098 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002335 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.633 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 431.5 MB.
+System memory in use after: 431.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4125.
+Total: 4.685249 ms (FindLiveObjects: 0.503198 ms CreateObjectMapping: 0.387861 ms MarkObjects: 3.691142 ms  DeleteObjects: 0.101312 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.360429 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000056 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001847 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 432.1 MB.
+System memory in use after: 432.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4127.
+Total: 3.938449 ms (FindLiveObjects: 0.434271 ms CreateObjectMapping: 0.145530 ms MarkObjects: 3.267685 ms  DeleteObjects: 0.089904 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.225173 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000049 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Import Request.
+  Time since last request: 5.140910 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000086 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fe64d411000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64d975000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fe64dafd000 doesn't match image /Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 432.7 MB.
+System memory in use after: 432.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4129.
+Total: 4.155965 ms (FindLiveObjects: 0.448119 ms CreateObjectMapping: 0.157135 ms MarkObjects: 3.451031 ms  DeleteObjects: 0.098582 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.086463 seconds.
+  path: 
+  artifactKey: Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cee6452fb95af462cb23c1e846e5968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000068 seconds  code(3) message(Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a')
+  ERROR: Unknown asset with GUID 'cee6452fb95af462cb23c1e846e5968a'

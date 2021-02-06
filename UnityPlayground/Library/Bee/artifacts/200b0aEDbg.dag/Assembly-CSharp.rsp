@@ -104,7 +104,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -303,10 +303,14 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.1.0b1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
+-r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+-r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+-r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
 -r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll"
 -r:"/Users/bug2000/Dev/UnityPlayground/UnityPlayground/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/com.unity.cinemachine.editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Analytics.DataPrivacy.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Postprocessing.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Postprocessing.Runtime.ref.dll"
@@ -350,8 +354,11 @@
 "Assets/Challenge 3/_Source_Files/SpinObjectsX.cs"
 "Assets/Cool Visual Effects - Part 1/Scripts/ConstantRotation.cs"
 "Assets/Cool Visual Effects - Part 1/Scripts/EffectManager.cs"
+"Assets/FollowAgainstPlayer.cs"
 "Assets/InputController.cs"
 "Assets/ModTheCube/Cube.cs"
+"Assets/playerControllerBall.cs"
+"Assets/RotateCamera.cs"
 "Assets/Scripts/PropellerSpin.cs"
 -langversion:8.0
 
