@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.iOS.Xcode;
 using UnityEngine;
 
 public class PlayerControllerX4 : MonoBehaviour
@@ -14,7 +15,29 @@ public class PlayerControllerX4 : MonoBehaviour
 
     private float normalStrength = 10; // how hard to hit enemy without powerup
     private float powerupStrength = 25; // how hard to hit enemy with powerup
-    
+
+
+    private InputController inputController;
+
+    private bool forwardPressed;
+    private bool backwardPressed;
+
+    private void Awake()
+    {
+        inputController = new InputController();
+        inputController.CharacterInput.UpButton.performed += ctx => forwardPressed = ctx.ReadValueAsButton();
+        inputController.CharacterInput.DownButton.performed += ctx => backwardPressed = ctx.ReadValueAsButton();
+    }
+
+    private void OnEnable()
+    {
+        inputController.CharacterInput.Enable();
+    }
+
+    private void OnDisable()
+    {
+        inputController.CharacterInput.Disable();
+    }
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -24,8 +47,14 @@ public class PlayerControllerX4 : MonoBehaviour
     void Update()
     {
         // Add force to player in direction of the focal point (and camera)
-        float verticalInput = Input.GetAxis("Vertical");
-        playerRb.AddForce(focalPoint.transform.forward * verticalInput * speed * Time.deltaTime); 
+        if (forwardPressed)
+        {
+            playerRb.AddForce(focalPoint.transform.forward * speed * Time.deltaTime);
+        }
+        else if (backwardPressed)
+        {
+            playerRb.AddForce(-focalPoint.transform.forward * speed * Time.deltaTime);
+        }
 
         // Set powerup indicator position to beneath player
         powerupIndicator.transform.position = transform.position + new Vector3(0, -0.6f, 0);
