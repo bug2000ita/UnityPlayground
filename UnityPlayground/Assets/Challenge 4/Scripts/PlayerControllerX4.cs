@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEditor.iOS.Xcode;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerControllerX4 : MonoBehaviour
 {
     private Rigidbody playerRb;
     private float speed = 500;
+    private float boostSpeed = 800;
     private GameObject focalPoint;
 
     public bool hasPowerup;
@@ -14,19 +16,21 @@ public class PlayerControllerX4 : MonoBehaviour
     public int powerUpDuration = 5;
 
     private float normalStrength = 10; // how hard to hit enemy without powerup
-    private float powerupStrength = 25; // how hard to hit enemy with powerup
+    private float powerupStrength = 30; // how hard to hit enemy with powerup
 
 
     private InputController inputController;
 
     private bool forwardPressed;
     private bool backwardPressed;
+    private bool boostPressed;
 
     private void Awake()
     {
         inputController = new InputController();
         inputController.CharacterInput.UpButton.performed += ctx => forwardPressed = ctx.ReadValueAsButton();
         inputController.CharacterInput.DownButton.performed += ctx => backwardPressed = ctx.ReadValueAsButton();
+        inputController.CharacterInput.RunButton.performed += ctx => boostPressed = ctx.ReadValueAsButton();
     }
 
     private void OnEnable()
@@ -42,22 +46,45 @@ public class PlayerControllerX4 : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         focalPoint = GameObject.Find("Focal Point");
+        powerupIndicator.SetActive(hasPowerup);
     }
 
     void Update()
     {
+
+        var maxSpeed = boostPressed ? boostSpeed : speed;
+
         // Add force to player in direction of the focal point (and camera)
         if (forwardPressed)
         {
-            playerRb.AddForce(focalPoint.transform.forward * speed * Time.deltaTime);
+            playerRb.AddForce(focalPoint.transform.forward * maxSpeed * Time.deltaTime);
         }
         else if (backwardPressed)
         {
-            playerRb.AddForce(-focalPoint.transform.forward * speed * Time.deltaTime);
+            playerRb.AddForce(-focalPoint.transform.forward * maxSpeed * Time.deltaTime);
+        }
+
+        if(boostPressed)
+        {
+            powerupIndicator.SetActive(true);
+
+        }
+        else
+        {
+            if (!hasPowerup)
+            {
+                powerupIndicator.SetActive(false);
+            }
         }
 
         // Set powerup indicator position to beneath player
+        if (hasPowerup)
+        {
+            powerupIndicator.transform.Rotate(Vector3.up, Time.deltaTime * 500);
+        }
+
         powerupIndicator.transform.position = transform.position + new Vector3(0, -0.6f, 0);
+        
 
     }
 
@@ -68,7 +95,9 @@ public class PlayerControllerX4 : MonoBehaviour
         {
             Destroy(other.gameObject);
             hasPowerup = true;
-            powerupIndicator.SetActive(true);
+            powerupIndicator.SetActive(hasPowerup);
+            StartCoroutine(PowerupCooldown());
+
         }
     }
 
@@ -77,7 +106,7 @@ public class PlayerControllerX4 : MonoBehaviour
     {
         yield return new WaitForSeconds(powerUpDuration);
         hasPowerup = false;
-        powerupIndicator.SetActive(false);
+        powerupIndicator.SetActive(hasPowerup);
     }
 
     // If Player collides with enemy
@@ -86,8 +115,8 @@ public class PlayerControllerX4 : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Rigidbody enemyRigidbody = other.gameObject.GetComponent<Rigidbody>();
-            Vector3 awayFromPlayer =  transform.position - other.gameObject.transform.position; 
-           
+            Vector3 awayFromPlayer =   (other.gameObject.transform.position - transform.position).normalized;
+
             if (hasPowerup) // if have powerup hit enemy with powerup force
             {
                 enemyRigidbody.AddForce(awayFromPlayer * powerupStrength, ForceMode.Impulse);
