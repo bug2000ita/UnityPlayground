@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TargetScript : MonoBehaviour
 {
+    public int pointValue = 5;
+    public ParticleSystem explosionParticle;
     private Rigidbody objectRB;
 
     private float maxSpeed = 14f;
@@ -11,6 +13,8 @@ public class TargetScript : MonoBehaviour
     private float maxTorch = 10f;
     private float xMaxPosition = 4;
     private float yPosition = 0;
+
+    private GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
@@ -21,15 +25,35 @@ public class TargetScript : MonoBehaviour
         objectRB.AddTorque(RandomTorch(),ForceMode.Impulse);
 
         transform.position = RandomSpawnPos();
+
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y<-10)
+
+    }
+
+    private void OnMouseDown()
+    {
+        if (!gameManager.isGameOver)
         {
             Destroy(gameObject);
+            gameManager.UpdateScore(pointValue);
+            Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
+
+            if (gameObject.CompareTag("Bad"))
+            {
+                gameManager.GameOver();
+            }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+        gameManager.GameOver();
     }
 
     Vector3 RandomForce()

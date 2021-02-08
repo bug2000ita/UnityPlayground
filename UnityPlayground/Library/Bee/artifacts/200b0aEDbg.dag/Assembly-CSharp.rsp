@@ -363,6 +363,7 @@
 "Assets/InputController.cs"
 "Assets/ModTheCube/Cube.cs"
 "Assets/playerControllerBall.cs"
+"Assets/Proto5/Scripts/Difficulty.cs"
 "Assets/Proto5/Scripts/GameManager.cs"
 "Assets/Proto5/Scripts/TargetScript.cs"
 "Assets/RotateCamera.cs"
