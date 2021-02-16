@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bad
+  - Enemy
+  - Money
+  - Undefined
+  - Bomb
+  - Dog
+  - Target
   layers:
   - Default
   - TransparentFX

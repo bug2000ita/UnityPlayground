@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateCamera : MonoBehaviour
 {
-    public float RotationSpeed = 10f;
+    public float RotationSpeed = 100f;
 
     private InputController inputController;
     private bool rightPressed;
@@ -37,15 +37,15 @@ public class RotateCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (leftPressed)
-        {
-            transform.Rotate(Vector3.up, -RotationSpeed * Time.deltaTime);
+        //if (leftPressed)
+        //{
+        //    transform.Rotate(Vector3.up, 0* RotationSpeed * Time.deltaTime);
 
-        }
-        else if (rightPressed)
-        {
-            transform.Rotate(Vector3.up, RotationSpeed * Time.deltaTime);
-        }
+        //}
+        //else if (rightPressed)
+        //{
+        //    transform.Rotate(Vector3.up, -RotationSpeed * 0 *Time.deltaTime);
+        //}
 
     }
 }

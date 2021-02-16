@@ -12,7 +12,7 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     float velocityZ = 0.0f;
     float velocityX = 0.0f;
 
-    public CharacterController characterController;
+    private CharacterController characterController;
 
     public float acceleration = 2.0f;
     public float deceleration = 2.0f;
@@ -43,12 +43,15 @@ public class AnimationTwoDimentionsController : MonoBehaviour
 
 
     bool collitionStop = false;
-    public CinemachineVirtualCamera camera;
+    public GameObject camera;
 
     Transform lastTransform;
 
     private float verticalSpeed = 0;
 
+
+    private Rigidbody playerRB;
+    public GameObject focal;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -78,7 +81,9 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     {
         Positions = new List<Vector3>();
         inputController = new InputController();
-        inputController.CharacterInput.UpButton.performed += ctx => forwardPressed = ctx.ReadValueAsButton();
+        inputController.CharacterInput.UpButton.performed += ctx => {
+            forwardPressed = ctx.ReadValueAsButton();
+            Debug.Log("UP PRESSED"); };
         inputController.CharacterInput.DownButton.performed += ctx => backwardPressed = ctx.ReadValueAsButton();
         inputController.CharacterInput.RightButton.performed += ctx => rightPressed = ctx.ReadValueAsButton();
         inputController.CharacterInput.LeftButton.performed += ctx => leftPressed = ctx.ReadValueAsButton();
@@ -104,6 +109,10 @@ public class AnimationTwoDimentionsController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        playerRB = GetComponent<Rigidbody>();
+        characterController = GetComponent<CharacterController>();
+        camera = GameObject.Find("PlayerCamera");
+
 
         velocityXHash = Animator.StringToHash("Velocity X");
         velocityZHash = Animator.StringToHash("Velocity Z");
@@ -143,9 +152,9 @@ public class AnimationTwoDimentionsController : MonoBehaviour
         if(!collitionStop)
         {
             lastTransform = this.GetComponent<Rigidbody>().transform;
-            Debug.Log($"LAST VALUE ****  {lastTransform.position.x} " +
-                $"{lastTransform.position.y} " +
-                $"{lastTransform.position.z}");
+            //Debug.Log($"LAST VALUE ****  {lastTransform.position.x} " +
+            //    $"{lastTransform.position.y} " +
+            //    $"{lastTransform.position.z}");
 
             Positions.Add(lastTransform.position); 
         }
@@ -156,16 +165,19 @@ public class AnimationTwoDimentionsController : MonoBehaviour
             Debug.Log("Move Camera");
         }
 
-        if (forwardPressed || backwardPressed || rightPressed || leftPressed)
+
+        if (forwardPressed || backwardPressed)
         {
             float gravity = 9.87f;
 
             if (characterController.isGrounded)
                 verticalSpeed = 0;
-            else
-                verticalSpeed -= gravity * Time.deltaTime;
+            //else
+            //    verticalSpeed -= gravity * Time.deltaTime;
 
-            this.GetComponent<Rigidbody>().MovePosition(this.GetComponent<Rigidbody>().transform.position + new Vector3(1.5f * velocityX, 0, 1.5f * velocityZ));
+            //playerRB.MovePosition(this.GetComponent<Rigidbody>().transform.position + new Vector3(1.5f * velocityX, 0, 1.5f * velocityZ));
+
+            playerRB.AddForce(-focal.transform.forward * velocityX * 8.5f,ForceMode.Impulse);
 
             //Vector3 gravityMove = new Vector3(0, verticalSpeed, 0);
             //Vector3 move = transform.forward * velocityZ + transform.right * velocityX; 
@@ -180,7 +192,7 @@ public class AnimationTwoDimentionsController : MonoBehaviour
 
         if (!rightPressed && !leftPressed)
         {
-            camera.GetCinemachineComponent<CinemachineTransposer>().m_YawDamping = 10;
+            //camera.GetCinemachineComponent<CinemachineTransposer>().m_YawDamping = 10;
 
         }
 
@@ -189,7 +201,7 @@ public class AnimationTwoDimentionsController : MonoBehaviour
             var lastIndex = Positions.Count;
             if (lastIndex != 0)
             {
-                this.GetComponent<Rigidbody>().MovePosition(Positions[lastIndex - 1]);
+                //this.GetComponent<Rigidbody>().MovePosition(Positions[lastIndex - 1]);
                 Positions.Clear();
             }
         }

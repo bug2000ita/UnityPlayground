@@ -57,6 +57,14 @@ public class @InputController : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""JumpButton"",
+                    ""type"": ""Button"",
+                    ""id"": ""81b87cb0-196a-4946-8068-c7b1c8783af0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -112,6 +120,17 @@ public class @InputController : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""LeftButton"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""af5ccb4a-ada5-4f1c-b4d1-dc620a6e4192"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""JumpButton"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -200,6 +219,33 @@ public class @InputController : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Mouse"",
+            ""id"": ""e07f0e89-f85a-4ec6-9d0b-bd83ab0c5358"",
+            ""actions"": [
+                {
+                    ""name"": ""New action"",
+                    ""type"": ""Button"",
+                    ""id"": ""7e601721-d856-4afb-ae60-050f8cd10628"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""07768df7-4679-4391-8921-1b8ce92ae112"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""New action"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -211,12 +257,16 @@ public class @InputController : IInputActionCollection, IDisposable
         m_CharacterInput_RunButton = m_CharacterInput.FindAction("RunButton", throwIfNotFound: true);
         m_CharacterInput_RightButton = m_CharacterInput.FindAction("RightButton", throwIfNotFound: true);
         m_CharacterInput_LeftButton = m_CharacterInput.FindAction("LeftButton", throwIfNotFound: true);
+        m_CharacterInput_JumpButton = m_CharacterInput.FindAction("JumpButton", throwIfNotFound: true);
         // CameraInput
         m_CameraInput = asset.FindActionMap("CameraInput", throwIfNotFound: true);
         m_CameraInput_TurnLeft = m_CameraInput.FindAction("TurnLeft", throwIfNotFound: true);
         m_CameraInput_TurnRight = m_CameraInput.FindAction("TurnRight", throwIfNotFound: true);
         m_CameraInput_TurnUp = m_CameraInput.FindAction("TurnUp", throwIfNotFound: true);
         m_CameraInput_TurnDown = m_CameraInput.FindAction("TurnDown", throwIfNotFound: true);
+        // Mouse
+        m_Mouse = asset.FindActionMap("Mouse", throwIfNotFound: true);
+        m_Mouse_Newaction = m_Mouse.FindAction("New action", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -271,6 +321,7 @@ public class @InputController : IInputActionCollection, IDisposable
     private readonly InputAction m_CharacterInput_RunButton;
     private readonly InputAction m_CharacterInput_RightButton;
     private readonly InputAction m_CharacterInput_LeftButton;
+    private readonly InputAction m_CharacterInput_JumpButton;
     public struct CharacterInputActions
     {
         private @InputController m_Wrapper;
@@ -280,6 +331,7 @@ public class @InputController : IInputActionCollection, IDisposable
         public InputAction @RunButton => m_Wrapper.m_CharacterInput_RunButton;
         public InputAction @RightButton => m_Wrapper.m_CharacterInput_RightButton;
         public InputAction @LeftButton => m_Wrapper.m_CharacterInput_LeftButton;
+        public InputAction @JumpButton => m_Wrapper.m_CharacterInput_JumpButton;
         public InputActionMap Get() { return m_Wrapper.m_CharacterInput; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -304,6 +356,9 @@ public class @InputController : IInputActionCollection, IDisposable
                 @LeftButton.started -= m_Wrapper.m_CharacterInputActionsCallbackInterface.OnLeftButton;
                 @LeftButton.performed -= m_Wrapper.m_CharacterInputActionsCallbackInterface.OnLeftButton;
                 @LeftButton.canceled -= m_Wrapper.m_CharacterInputActionsCallbackInterface.OnLeftButton;
+                @JumpButton.started -= m_Wrapper.m_CharacterInputActionsCallbackInterface.OnJumpButton;
+                @JumpButton.performed -= m_Wrapper.m_CharacterInputActionsCallbackInterface.OnJumpButton;
+                @JumpButton.canceled -= m_Wrapper.m_CharacterInputActionsCallbackInterface.OnJumpButton;
             }
             m_Wrapper.m_CharacterInputActionsCallbackInterface = instance;
             if (instance != null)
@@ -323,6 +378,9 @@ public class @InputController : IInputActionCollection, IDisposable
                 @LeftButton.started += instance.OnLeftButton;
                 @LeftButton.performed += instance.OnLeftButton;
                 @LeftButton.canceled += instance.OnLeftButton;
+                @JumpButton.started += instance.OnJumpButton;
+                @JumpButton.performed += instance.OnJumpButton;
+                @JumpButton.canceled += instance.OnJumpButton;
             }
         }
     }
@@ -384,6 +442,39 @@ public class @InputController : IInputActionCollection, IDisposable
         }
     }
     public CameraInputActions @CameraInput => new CameraInputActions(this);
+
+    // Mouse
+    private readonly InputActionMap m_Mouse;
+    private IMouseActions m_MouseActionsCallbackInterface;
+    private readonly InputAction m_Mouse_Newaction;
+    public struct MouseActions
+    {
+        private @InputController m_Wrapper;
+        public MouseActions(@InputController wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Newaction => m_Wrapper.m_Mouse_Newaction;
+        public InputActionMap Get() { return m_Wrapper.m_Mouse; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MouseActions set) { return set.Get(); }
+        public void SetCallbacks(IMouseActions instance)
+        {
+            if (m_Wrapper.m_MouseActionsCallbackInterface != null)
+            {
+                @Newaction.started -= m_Wrapper.m_MouseActionsCallbackInterface.OnNewaction;
+                @Newaction.performed -= m_Wrapper.m_MouseActionsCallbackInterface.OnNewaction;
+                @Newaction.canceled -= m_Wrapper.m_MouseActionsCallbackInterface.OnNewaction;
+            }
+            m_Wrapper.m_MouseActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Newaction.started += instance.OnNewaction;
+                @Newaction.performed += instance.OnNewaction;
+                @Newaction.canceled += instance.OnNewaction;
+            }
+        }
+    }
+    public MouseActions @Mouse => new MouseActions(this);
     public interface ICharacterInputActions
     {
         void OnDownButton(InputAction.CallbackContext context);
@@ -391,6 +482,7 @@ public class @InputController : IInputActionCollection, IDisposable
         void OnRunButton(InputAction.CallbackContext context);
         void OnRightButton(InputAction.CallbackContext context);
         void OnLeftButton(InputAction.CallbackContext context);
+        void OnJumpButton(InputAction.CallbackContext context);
     }
     public interface ICameraInputActions
     {
@@ -398,5 +490,9 @@ public class @InputController : IInputActionCollection, IDisposable
         void OnTurnRight(InputAction.CallbackContext context);
         void OnTurnUp(InputAction.CallbackContext context);
         void OnTurnDown(InputAction.CallbackContext context);
+    }
+    public interface IMouseActions
+    {
+        void OnNewaction(InputAction.CallbackContext context);
     }
 }
